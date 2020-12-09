@@ -1,0 +1,879 @@
+,Utterance,NbPairInSession,Dialogue_ID,SpeechTurn,Speaker,Sentiment
+654,yeah . ok . emm ... i'll talk to ... spike,1,59,655,User,Neutral
+655,hi,2,59,656,Agent,Neutral
+656,hi spike,2,59,657,User,Neutral
+657,my name is spike . have we met before ?,3,59,658,Agent,Neutral
+658,ehh ... no,3,59,659,User,Neutral
+659,no ? well i've got a bit of a temper,4,59,660,Agent,Neutral
+660,ok,4,59,661,User,Negative
+661,emm ... i don't suffer fools gladly,5,59,662,Agent,Neutral
+662,ok spike,5,59,663,User,Negative
+663,ok ? emm ... can you tell me what makes you angry in this world ?,6,59,664,Agent,Neutral
+664,emm ... rude people . i tend to not like rude people . or people who are a bit mean . emm ... that is sort of ... people is attitudes i suppose probably make me angry,6,59,665,User,Neutral
+665,an what is wrong ? what kind of attitudes make you angry ?,7,59,666,Agent,Negative
+666,emm ... people being a little bit ... selfish,7,59,667,User,Neutral
+667,yes !,8,59,668,Agent,Negative
+668,or emm ... unnecessarily nasty to other people,8,59,669,User,Neutral
+669,the world is full of selfish people,9,59,670,Agent,Negative
+670,it is indeed,9,59,671,User,Negative
+671,an not so ... nasty ... well a lot of people have justification for being nasty . but the world is full of people who only think of themselves,10,59,672,Agent,Neutral
+672,yeah . that is true,10,59,673,User,Negative
+673,can you think of somebody who is like that ?,11,59,674,Agent,Neutral
+674,ehh ... yeah .,11,59,675,User,Neutral
+675,that annoys you in that way ?,12,59,676,Agent,Neutral
+676,yeah .,12,59,677,User,Negative
+677,and tell me about them,13,59,678,Agent,Neutral
+678,"emm ... they're a little bit self focussed . and not very good at emm ... ehh ... being that inclusive of other people . or taking other peoples cons ... feelings into consideration . and emm ... ehh ... un ... because of that , sort of get under my skin ... and could be quite untactful ...",13,59,679,User,Neutral
+679,aha,14,59,680,Agent,Negative
+680,with their emm ... with the way they talk to people ...,14,59,681,User,Neutral
+681,and that is ...,15,59,682,Agent,Neutral
+682,i think,15,59,683,User,Neutral
+683,that can be very irritating,16,59,684,Agent,Neutral
+684,it is very irritating,16,59,685,User,Negative
+685,yes . and ehh ... in what way ... do they get under your skin ?,17,59,686,Agent,Negative
+686,ehh ...,17,59,687,User,Neutral
+687,tell me more about how they annoy you,18,59,688,Agent,Neutral
+688,well ... they just ... the ... full of their own self im ... importance . like to tell you lots about how great they are and how well things are going for them ... an it is ... an how fantastic their life is . which is good for them but at the same time it is nearly always at the ... ehh expense of you . as like ... you can't tell them anything about your ... they've no idea what is going on in your life and it is all about ... what is goin on in theirs . which gets a little bit tiring,18,59,689,User,Negative
+689,well it is probably a weakness that they have that they need to tell .,19,59,690,Agent,Negative
+690,yeah . probably .,19,59,691,User,Negative
+691,these people are always like this,20,59,692,Agent,Neutral
+692,what ... insecurity or something,20,59,693,User,Negative
+693,yeah . most people are ... a waste of space .,21,59,694,Agent,Neutral
+694,-lrb- laughs -rrb- really .,21,59,695,User,Negative
+695,most people,22,59,696,Agent,Neutral
+696,well i don't say most' people . but yes there is a lot of annoying people,22,59,697,User,Neutral
+697,yes . can you think of any more annoying people ?,23,59,698,Agent,Negative
+698,emm ... yeah . i can of people who sort of ... annoy me,23,59,699,User,Neutral
+699,tell me about then . it ... ehh ... i agree that the world is so full of annoying people . tell me about them,24,59,700,Agent,Negative
+700,emm ... i don't like when people get very emm ... sort of snipey_unfinished ... and a bit sharp . i hate when people are unnecessarily ... quick tempered with people,24,59,701,User,Negative
+701,yeah . well sometimes it is the only rational way to be,25,59,702,Agent,Negative
+702,i know but i don't like it . -lrb- laughs -rrb- it is i don't the ehm ... when people are quite ... ya know ... that sort of sharp ... n then people get mean n a bit sort of cruel about people,25,59,703,User,Positive
+703,well ya have to stand up for yourself in this world,26,59,704,Agent,Negative
+704,i know but you don't have to be mean to do it,26,59,705,User,Positive
+705,well sometimes ... that comes out ... because the world is full of annoying people . but do ya ... do ya know somebody like that ?,27,59,706,Agent,Neutral
+706,yeah . yeah i do . i think everybody probably knows someone like that . just somebody who is ... just ... aww ... unnecessarily gets under your skin . and i ...,27,59,707,User,Negative
+707,tell me more,28,59,708,Agent,Negative
+708,ah ... well ... it is sort of ... emm i just don't like when people get very ... and this person in particular gets very emm ... passive aggressive maybe ... and like these sort of compliments that are veiled n these insults that emm ... so ... so ... it sort of takes you a wee minute to realize that you've just been insulted or they've just been ... a bit ... cruel unnecessarily . or a bit judgemental maybe,28,59,709,User,Neutral
+709,in what way ? in what way ?,29,59,710,Agent,Negative
+710,emm ... i think it is probably just ... it is when people start attacking maybe . your thoughts in something or ... ya know ... or don't take your thoughts on something into consideration . an it is more emm ... -lrb- tuts -rrb- sort of all about them or all about their ... their way or the highway sort of thing,29,59,711,User,Neutral
+711,yeah . so they're sort of very ... s ... it is selfish again,30,59,712,Agent,Negative
+712,yeah . that would be a ...,30,59,713,User,Negative
+713,self centered ...,31,59,714,Agent,Neutral
+714,yeah . self centered . that is what they are . yeah,31,59,715,User,Negative
+715,yeah . yeah . the world is so full of people like that ... they ... very annoying . very annoying . they get under my skin,32,59,716,Agent,Negative
+716,yeah . no they are,32,59,717,User,Negative
+717,emm ... wha ... what makes you angry about the world ?,33,59,718,Agent,Neutral
+718,bout the world ... emm ... i think maybe the inequality in the world . i think it makes me very angry when emm ... some people have so much and other people have so little . and what makes me even more angry is when people who have so much ... take it for granted ... an emm ... have a `` woe is me'' attitude when they actually have nothing really at all to complain about,33,59,719,User,Neutral
+719,yes,34,59,720,Agent,Negative
+720,that annoys me,34,59,721,User,Neutral
+721,yes . that is very annoying,35,59,722,Agent,Negative
+722,yeah .,35,59,723,User,Negative
+723,and ah ... in what way ... does that get under your skin or how does that annoy you ?,36,59,724,Agent,Neutral
+724,i think because i'm a generally positive person and when people are emm ... repeatedly negative about everything i emm ... i find that very hard to deal with cos i can always find a positive in something . well emm ...,36,59,725,User,Neutral
+725,there are very little positives,37,59,726,Agent,Positive
+726,"oh ... well ... i ... i think there is . i just think that there is ... you can always ... turn something ... there is always a good to come out of something . while ... but people who are very `` oh no , woe is me'' `` my life is so awful'' when actually there is plenty they should be thankful for",37,59,727,User,Neutral
+727,hmm ... well what about all the suffering in the world ?,38,59,728,Agent,Positive
+728,i know but then people should be grateful that they are not suffering n do more to help after people who are suffering . then complain n get on their high horse about ... their suffering,38,59,729,User,Neutral
+729,yes . thats very annoying . it is very annoying when people can't see that ...,39,59,730,Agent,Neutral
+730,hmmm ... the bigger picture,39,59,731,User,Negative
+731,"... that the world is full of suffering , , and that they're just adding to the suffering",40,59,732,Agent,Neutral
+732,yeah . no i think it is unnecessarily emm ... self focussed .,40,59,733,User,Negative
+733,unnecessarily self focussed . but people are like that . people are ... a pain,41,59,734,Agent,Negative
+734,yeah . then can be .,41,59,735,User,Negative
+735,yeah . emm ... and in the ehh ... what about in the ... wider world then ... not - not just people . what makes you angry ?,42,59,736,Agent,Neutral
+736,emm ... well money makes -lrb- laughs -rrb- me angry quite often . or lack of it .,42,59,737,User,Neutral
+737,aha,43,59,738,Agent,Negative
+738,and emm ... that sorta annoys me and ehh ... the mess ... politicians tend to make me very annoyed .,43,59,739,User,Neutral
+739,yes . tell me about politicians and how they annoy you .,44,59,740,Agent,Negative
+740,emm ... they just annoy me because ... they ... just can be so ... stupid,44,59,741,User,Neutral
+741,aha,45,59,742,Agent,Negative
+742,and emm ... they're very bad at looking at the bigger picture . i think ... and emm ... that just seems frustrating that ... we vote three people in and then they run amock and don't answer to anybody . when really it should be the people who voted them in they should answer to,45,59,743,User,Neutral
+743,aha .,46,59,744,Agent,Negative
+744,be my thoughts . n it just sort of ...,46,59,745,User,Neutral
+745,does that get you angry ?,47,59,746,Agent,Neutral
+746,yeah . gets me ... very pissed off . -lrb- laughs -rrb- annoyed,47,59,747,User,Neutral
+747,aha . aha . emm ... can you think of any in particular ? or any issues in particular ?,48,59,748,Agent,Negative
+748,"emm ... i don't like the way ... th ... green issues are bein used emm ... especially by the uk government . this whole thing about ... they see green as a way of getting taxes , so instead of actually doing anything about ... like alternative sources of fuel n stuff . they just green tax you . carbon tax n all this sort of stuff . when i think ... it is just they see an opportunity as opposed to ... like an opportunity for money as opposed to an opportunity to ... fix anything",48,59,749,User,Neutral
+749,aha,49,59,750,Agent,Negative
+750,an that ... that annoys me,49,59,751,User,Neutral
+751,that irritates you . an ehh ... wh ... what irritates you in particular ?,50,59,752,Agent,Negative
+752,emm ... well i think the whole thing about what ... it is maybe counter productive but i hate this whole thing about putting all this tax on airline ... on like flights n stuff . n all this carbon offspring n all . i think people are ... are just taking an opportunity ... like ya know ... seeing an opportunity to make money and not seeing an opportunity to ... emm ... actually do anything constructive . n i think that is ... that goes back to people being a little bit ... self focussed . i think they just about see ... ya know ... they're using ... just using other people really i think . n ... that is ... annoying,50,59,753,User,Negative
+753,yes . it is very common,51,59,754,Agent,Negative
+754,yeah . so it is quite common,51,59,755,User,Negative
+755,aha,52,59,756,Agent,Neutral
+756,i know,52,59,757,User,Neutral
+757,politicians in particular,53,59,758,Agent,Neutral
+758,yeah . they're a breed unto their own,53,59,759,User,Neutral
+1015,hello . i'm prudence,1,70,1018,Agent,Neutral
+1016,hello prudence,1,70,1019,User,Neutral
+1017,have we met before ?,2,70,1020,Agent,Neutral
+1018,no,2,70,1021,User,Neutral
+1019,well it is nice to meet you,3,70,1022,Agent,Positive
+1020,yeah ... i like ...,3,70,1023,User,Neutral
+1021,how are you today ?,4,70,1024,Agent,Neutral
+1022,ah ... i'm doing grand . how about you ? oh sorry ! -lrb- tuts at mistake of asking question -rrb-,4,70,1025,User,Neutral
+1023,i'm afraid i can't answer any questions . can you tell me about what ... your day has been ?,5,70,1026,Agent,Neutral
+1024,ah ... my day is been pretty low key . ah ... just kinda read at home ... n ... came here to do a certain somebody is experiment,5,70,1027,User,Neutral
+1025,have you had a productive day ?,6,70,1028,Agent,Neutral
+1026,ah ... not really . no,6,70,1029,User,Neutral
+1027,well that is unfortunate . maybe you need to manage your time a little bit better ?,7,70,1030,Agent,Negative
+1028,"yeah ... maybe . -lrb- smiles , slight giggle -rrb-",7,70,1031,User,Neutral
+1029,so . can you tell me what else is going on in your life at the moment ?,8,70,1032,Agent,Neutral
+1030,ah ... let is see ... i'm going to a ... conference meeting next week in london . emm ... so am kind of reading preparing for that . trying to figure out when to take vacation ... -lrb- tuts -rrb- emm ... then some laboratory stuff . . n other ... then that . . that is about it for li ... for life,8,70,1033,User,Neutral
+1031,that sounds interesting . you've quite a lot going on . so you need to manage your time,9,70,1034,Agent,Positive
+1032,-lrb- tuts -rrb- yeah ... you could say that .,9,70,1035,User,Neutral
+1033,and have you considered where you might go for holidays ?,10,70,1036,Agent,Neutral
+1034,ah yeah . i'm thinking about going to australia,10,70,1037,User,Neutral
+1035,and wh ... why australia ?,11,70,1038,Agent,Neutral
+1036,ah ... i've a very good friend of mine who is in perth . an i haven't seen her in about a year and a half so ...,11,70,1039,User,Neutral
+1037,so you are going to visit ?,12,70,1040,Agent,Neutral
+1038,yeah . hopefully for 2 or 3 weeks,12,70,1041,User,Neutral
+1039,that is quite a while,13,70,1042,Agent,Neutral
+1040,"ah ... yeah . it is quite a while , but it is quite an expensive ticket . so ... -lrb- smiles , makes tutting noise -rrb- i have to make my time worthwhile",13,70,1043,User,Neutral
+1041,well that is ... that sounds like a good decision,14,70,1044,Agent,Positive
+1042,hmm hmm . it is . it is very practical,14,70,1045,User,Positive
+1043,it does sound very practical,15,70,1046,Agent,Positive
+1044,-lrb- light giggle -rrb-,15,70,1047,User,Neutral
+1045,think we're on the same wavelength,16,70,1048,Agent,Positive
+1046,aha . i concur .,16,70,1049,User,Positive
+1047,good ... emm ... so what about your work . how is your work going ?,17,70,1050,Agent,Neutral
+1048,-lrb- tuts -rrb- my work is going pretty well actually . emm ...,17,70,1051,User,Positive
+1049,excellent,18,70,1052,Agent,Positive
+1050,"yeah . some very interesting results , and ... -lrb- tuts -rrb- some new ... interesting experiments to be had and hopefully a couple of publications ... soon after",18,70,1053,User,Neutral
+1051,can you tell me about some of them ?,19,70,1054,Agent,Neutral
+1052,about the ... publications or ... the work ?,19,70,1055,User,Neutral
+1053,the experiments,20,70,1056,Agent,Neutral
+1054,the experiments . ah . ok . we ... or what i do is ... i am interested in looking at ways in which ... we can basically help stroke survivors ... doing physical rehabilitation . ah ... maintain their . . their benefits ... or their -lrb- sighs and shakes head -rrb- i hate talking about research . emm ... basically trying to find ways to improve physical therapy . so ... what we use is ... a way to ... non invasively and non painfully stimulate the brain,20,70,1057,User,Neutral
+1055,hmm hmm,21,70,1058,Agent,Neutral
+1056,"-lrb- sighs -rrb- and ... through a variety of ways we try to increase the activity that goes on in the motor cortex , which is ... responsible for controlling movements in ... everyone . -lrb- tuts -rrb-",21,70,1059,User,Neutral
+1057,that sounds interesting,22,70,1060,Agent,Positive
+1058,and what we've come up with is ... eh ... one or two certain techniques that seem to be very promising in influencing this excitability ...,22,70,1061,User,Neutral
+1059,hmm hmm,23,70,1062,Agent,Neutral
+1060,... in the cortex,23,70,1063,User,Neutral
+1061,that sounds very interesting,24,70,1064,Agent,Positive
+1062,yeah . i guess,24,70,1065,User,Positive
+1063,but you don't enjoy talking about it ?,25,70,1066,Agent,Neutral
+1064,-lrb- sighs -rrb- nah . it is kinda ... i don't know . it is kinda boring . i ... i'd ... -lrb- tuts -rrb- i like to talk about . .,25,70,1067,User,Negative
+1065,what would you like to talk about ?,26,70,1068,Agent,Neutral
+1066,"oh jeez . emm ... -lrb- tutting noise , sighs -rrb- i don't know . emm ... let is talk about ... oh ... travel ?",26,70,1069,User,Neutral
+1067,ok,27,70,1070,Agent,Neutral
+1068,right . emm ... . . let is see . i went to the states recently . eh ... for a week . to visit some friends . went down to houston . emm ... the reason we went there is absolutely absurd . we went there to see wrestle mania,27,70,1071,User,Neutral
+1069,that is absurd .,28,70,1072,Agent,Negative
+1070,"that is absolutely absurd . i concur . but it was ... fantastic fun . eh ... four guys doing a road trip from houston to new orleans as well . emm ... obviously myself included . an ... a lot of eating , a lot of drinking , a lot of not talking about research . it was fantastic .",28,70,1073,User,Positive
+1071,well it sounds like it was an ... excessive trip,29,70,1074,Agent,Negative
+1072,very excessive,29,70,1075,User,Negative
+1073,an do you think that is a good thing ?,30,70,1076,Agent,Neutral
+1074,i ... think it is good ... at times . -lrb- laughs -rrb- yeah . eh ... i was glad to come back ... and ... to live non excessively for ... . . excuse me . for a while . but it was needed,30,70,1077,User,Positive
+1075,ok . that is good,31,70,1078,Agent,Positive
+1076,hmm hmm .,31,70,1079,User,Neutral
+1077,would you like to talk to somebody else ?,32,70,1080,Agent,Neutral
+1078,eh ... sure . do i just ... i ... i pick from the other ... ok . let is go for ... poppy,32,70,1081,User,Neutral
+1214,"oh , i'd like to speak to poppy please",1,2,1219,User,Neutral
+1215,hi . i'm poppy . have we met before ?,2,2,1220,Agent,Neutral
+1216,-lrb- in assertive voice -rrb- yes poppy ! what a hullaballoo all that was !,2,2,1221,User,Neutral
+1217,"oh don't worry . it won't actually make anything worse in the long run . everything will turn out fine , you'll see",3,2,1222,Agent,Positive
+1218,it would need to . it is taken us ... what ... an hour to get this set up again ?,3,2,1223,User,Positive
+1219,just think how much longer other things could take,4,2,1224,Agent,Neutral
+1220,i suppose that is right poppy . it is a friday afternoon and ... a ... there is still time for me to go christmas shopping,4,2,1225,User,Positive
+1221,and ... we have got a recording set up,5,2,1226,Agent,Positive
+1222,"yes , isn't that really really good , and you look very nice this afternoon poppy",5,2,1227,User,Neutral
+1223,"oh , thank you . i've have my hair done",6,2,1228,Agent,Positive
+1224,-lrb- in disbelieving tone -rrb- it doesn't look as if you've had it done poppy . i ... i would ...,6,2,1229,User,Positive
+1225,i've had it blow dried,7,2,1230,Agent,Negative
+1226,ahhhh ... -lrb- she giggles -rrb- i would recommend a haircut poppy,7,2,1231,User,Neutral
+1227,-lrb- in raised tone -rrb- aww ... don't you like my hair ?,8,2,1232,Agent,Positive
+1228,i suppose it will do . do you like mine poppy ?,8,2,1233,User,Neutral
+1229,"i think your hair is just lovely . i think you have such lovely hair . especially in the colors of this monitor , because it is all different",9,2,1234,Agent,Positive
+1230,"-lrb- laughs -rrb- that'd good . well , well now . we've reached friday afternoon . so there you go it is the end of the week , and friday afternoons are always pretty bad because everything is pretty gloomy by friday",9,2,1235,User,Positive
+1231,-lrb- in a cheerful tone -rrb- cheer up !,10,2,1236,Agent,Negative
+1232,i'll try poppy . i was actually feeling really cheerful this morning and then everything went wrong and now i'm so tired i can hardly sit up straight,10,2,1237,User,Positive
+1233,you don't look straight actually -lrb- a little laughter follows -rrb-,11,2,1238,Agent,Negative
+1234,i'll try to sit straighter poppy . does that look a bit better ?,11,2,1239,User,Negative
+1235,i think it is the camera -lrb- more laughter -rrb-,12,2,1240,Agent,Neutral
+1236,-lrb- also laughing -rrb- maybe the camera is croo_unfinished ... crooked or something -lrb- both continue laughing -rrb-,12,2,1241,User,Neutral
+1237,-lrb- in a whisper -rrb- just a little bit,13,2,1242,Agent,Neutral
+1238,"i see ... i see ... so , anyway ... umm ... i'm going to go shopping after i've spoken to you poppy .",13,2,1243,User,Neutral
+1239,-lrb- giggles -rrb-,14,2,1244,Agent,Neutral
+1240,"err ... i've got lots and lots of money in m y bag , and ... i went out shopping actually at lunchtime today . you didn't know that . i nipped down , no not downtown , i nipped down botanic avenue at lunchtime and i looked in that nice shop at the end of botanic for jewelry and things ... and i bought a candle . all for myself . a nice big red and green fancy christmas candle with christmas trees on it",14,2,1245,User,Neutral
+1241,oooooh . that sounds lovely,15,2,1246,Agent,Neutral
+1242,"it is nice . it is nice , and i've put it on the table , and i'm gon na light it on christmas eve , and on christmas day and on boxing day and it will look lovely .",15,2,1247,User,Positive
+1243,it doesn't get any better than that,16,2,1248,Agent,Positive
+1244,"no it doesn't , that is right",16,2,1249,User,Positive
+1245,i think you could tell me about even more happy things,17,2,1250,Agent,Positive
+1246,"-lrb- she sighs and looks upward -rrb- well ... ahh ... i spoke to christopher . no i didn't speak to christopher -lrb- m has a giggle -rrb- i had a text from ... an unusual text from christopher , which said he was going out to lunch with cathy , as if i ought to know who cathy was ... aaah ... he is always going out to lunch with cathy , but i've no idea who cathy really is cos i've never met her , but it is one of those interesting little kind of ... understandings that somehow i'm meant to have . and he'd been swimming in the outdoor pool this morning again ...",17,2,1251,User,Neutral
+1247,with cathy ?,18,2,1252,Agent,Neutral
+1248,noooo ... no ... not with cathy,18,2,1253,User,Neutral
+1249,-lrb- giggles -rrb-,19,2,1254,Agent,Neutral
+1250,in london fields and ... aaaah ... he said he'd met a 74 year old weight lifter swimming at the pool at 7.30 in the morning freezing cold along with him . so two absolute lunatics swimming together ...,19,2,1255,User,Neutral
+1251,-lrb- giggles -rrb-,20,2,1256,Agent,Neutral
+1252,... in subzero temperatures,20,2,1257,User,Neutral
+1253,it sounds amazingly exciting,21,2,1258,Agent,Neutral
+1254,doesn't it just . doesn't it just,21,2,1259,User,Positive
+1255,is there anything else exciting ?,22,2,1260,Agent,Positive
+1256,nooo ... well i got an email from ... boots ... photoshop to say they couldn't do my canvasses because the quality of the photo is wasn't good enough . so that was a bit disappointing .,22,2,1261,User,Neutral
+1257,aw . what did they say about them ?,23,2,1262,Agent,Negative
+1258,"-lrb- slow intake of breath -rrb- they said the quality wasn't good enough for canvas printing . that it was too ... ahh ... that ... that the pictures were a bit blurry when they came out ... when they printed and pixellated was the word . didn't know that there was a verb from it , but anyway , pixellated was what they said",23,2,1263,User,Neutral
+1259,-lrb- in a caring voice -rrb- i'm sure it will all work out just great,24,2,1264,Agent,Negative
+1260,mmmmm ... maybe i need a new camera -lrb- sniff -rrb-,24,2,1265,User,Positive
+1261,that is a great idea !,25,2,1266,Agent,Neutral
+1262,i don't really want a new camera .,25,2,1267,User,Positive
+1263,"you could get a ten mega mega pixel super doper ultra camera , with video",26,2,1268,Agent,Negative
+1264,"no . no . but it wouldn't ... it needs to come in a mobile phone you see poppy , so that i can use it and take pictures when i'm out cycling and things like . just those sorts of natural pictures that you take , when you don't stop to think about it",26,2,1269,User,Neutral
+1265,i love mobile phones,27,2,1270,Agent,Negative
+1266,mmmmmmm . mmmmmmm,27,2,1271,User,Positive
+1267,i could talk on them all day,28,2,1272,Agent,Neutral
+1268,oh i could . i love mobile phones . i feel quite bereft without my mobile phone,28,2,1273,User,Positive
+1269,"i think that we've talked so long , the others will be feeling very lonely , but it is lovely talking to you",29,2,1274,Agent,Positive
+1270,well that is nice but the others are very boring compared to you,29,2,1275,User,Positive
+1271,i'm so pleased ...,30,2,1276,Agent,Positive
+1272,i'll talk to spike for a bit,30,2,1277,User,Positive
+1680,hi . -lrb- whispery voice -rrb-,1,96,1686,Agent,Neutral
+1681,hi obidi .,1,96,1687,User,Neutral
+1682,-lrb- sniffs -rrb- how are you today ?,2,96,1688,Agent,Neutral
+1683,emm ... i'd say i'm a lot better than you look anyway .,2,96,1689,User,Positive
+1684,yeah . -lrb- sighs -rrb- i always look like this though,3,96,1690,Agent,Negative
+1685,oh ... that is a pity . there is so many good things in life,3,96,1691,User,Positive
+1686,"i know , but there is lots n lots of bad things too",4,96,1692,Agent,Negative
+1687,hmmm . that is true but ... ya know ... i think people have a tendency to sometimes focus on the bad things n not really notice the good things,4,96,1693,User,Positive
+1688,hmmm,5,96,1694,Agent,Neutral
+1689,so maybe if you tried ... looking at the good things you'd be a bit happier,5,96,1695,User,Positive
+1690,"yeah . but then ... if i was always lookin on the bright side ... i wouldn't be prepared when tings go wrong . and tings do go wrong , don't they ?",6,96,1696,Agent,Negative
+1691,"they do ... they do , but there is no point in being miserable all the time",6,96,1697,User,Positive
+1692,hmmm . i don't know ...,7,96,1698,Agent,Negative
+1693,and when ... when things go wrong ya know ... they maybe not ... aren't as bad as you think,7,96,1699,User,Positive
+1694,hmmm . but things do go wrong . don't they ?,8,96,1700,Agent,Negative
+1695,they do . yes . but we can all learn from our mistakes . and that is also very important,8,96,1701,User,Positive
+1696,"but it is ... bad at the time , when things go wrong",9,96,1702,Agent,Negative
+1697,"yes , but then afterwards you'll be ... you're happy when ... you get it sorted out",9,96,1703,User,Positive
+1698,hmmm,10,96,1704,Agent,Neutral
+1699,ya know ... n then you're ...,10,96,1705,User,Neutral
+1700,don't know ...,11,96,1706,Agent,Neutral
+1701,... a better person for it,11,96,1707,User,Positive
+1702,just setting yourself up for your next ... onslaught of misery again,12,96,1708,Agent,Negative
+1703,i ...,12,96,1709,User,Neutral
+1704,there is just no point,13,96,1710,Agent,Negative
+1705,i really don't believe you that things are that bad,13,96,1711,User,Negative
+1706,"well surely you must have had bad things happen , where you don't recover quite so quickly",14,96,1712,Agent,Negative
+1707,"true . bad things happen , and then i normally look back on them . ya know , a few months down the line , and think maybe i overreacted . maybe it wasn't that bad",14,96,1713,User,Positive
+1708,hmmm,15,96,1714,Agent,Neutral
+1709,and emm ... you have to put things in perspective . emm ... you probably have a much better time than a lot of other people in the world,15,96,1715,User,Positive
+1710,-lrb- intake of breath -rrb- hmmm,16,96,1716,Agent,Neutral
+1711,ya know . li ... living in a country like ... ya know ...,16,96,1717,User,Neutral
+1712,hmmm,17,96,1718,Agent,Neutral
+1713,"... a country like ... northern ireland ... . . emm ... we have a lot of good things going for us , ya know",17,96,1719,User,Positive
+1714,"but then ... when ya think of other people who don't have such good things , does that not make ya a little bit sad ?",18,96,1720,Agent,Negative
+1715,yeah . that does make me sad ya know . because i know that they won't have the same opportunities as us and ...,18,96,1721,User,Negative
+1716,hmmm,19,96,1722,Agent,Neutral
+1717,... ya know,19,96,1723,User,Neutral
+1718,a lot of people in the world are suffering,20,96,1724,Agent,Negative
+1719,"yes . that is true . no that ... things like that would make me sad , yes . n it would be nice if we could do more about that",20,96,1725,User,Negative
+1720,hmmm,21,96,1726,Agent,Neutral
+1721,"an i think it is also important that we do ... take time to think about those things , and ...",21,96,1727,User,Positive
+1722,yeah,22,96,1728,Agent,Neutral
+1723,"but we should also think about good things , like how we could help them . ya know . by channeling emm ... . . those feelings into something positive so you ... you know if you're worried about how other people are in the world why ... get involved in some ... charity n try n do whatever you can to help them",22,96,1729,User,Positive
+1724,hmmm,23,96,1730,Agent,Neutral
+1725,so turning those ... negatives into positives,23,96,1731,User,Positive
+1726,maybe . -lrb- slow sad tone -rrb- it is difficult sometimes though,24,96,1732,Agent,Negative
+1727,have you tri ... you have to try,24,96,1733,User,Positive
+1728,don't you ever feel like dat ?,25,96,1734,Agent,Neutral
+1729,well ...,25,96,1735,User,Neutral
+1730,where it is just hard to cheer yourself up sometimes ?,26,96,1736,Agent,Negative
+1731,emm ... it is ... well i ... getting back to your first point ... yes . it is difficult but you know ... of course one person can't change everything but you can do your best . and if you've done your best you should be happy,26,96,1737,User,Positive
+1732,yeah . i suppose,27,96,1738,Agent,Positive
+1733,and well ... it is inevitable some ... sometimes it is ... hard to cheer yourself up,27,96,1739,User,Negative
+1734,yeah,28,96,1740,Agent,Neutral
+1735,ya know . we have to accept that . there is ...,28,96,1741,User,Neutral
+1736,when ... when do you feel like that ?,29,96,1742,Agent,Neutral
+1737,when do i feel upset ? it ... it is usually over very silly things,29,96,1743,User,Negative
+1738,yeah,30,96,1744,Agent,Neutral
+1739,ya know . the ... the ... the unexpected things ... can get me down,30,96,1745,User,Negative
+1740,hmm hmm,31,96,1746,Agent,Neutral
+1741,emm ... like find ... it hard to get a job . things like that . emm ...,31,96,1747,User,Negative
+1742,hmmm . that is really hard,32,96,1748,Agent,Negative
+1743,yeah . fa ... when things go wrong in the family . ya know .,32,96,1749,User,Negative
+1744,hmmm,33,96,1750,Agent,Neutral
+1745,people ... yeah ... n your grandparents ...,33,96,1751,User,Neutral
+1746,people that you rely on when things go wrong,34,96,1752,Agent,Negative
+1747,... die and emm . yeah . well yeah . just even havin an argument ... with ... your brother . things like that,34,96,1753,User,Negative
+1748,hmmm,35,96,1754,Agent,Neutral
+1749,ya know . over really silly things,35,96,1755,User,Negative
+1750,dats really hard because ... ya get annoyed but after ya feel ... really upset then,36,96,1756,Agent,Negative
+1751,yes . you do . n you wonder whose fault was it . was it yours yours or was it theirs,36,96,1757,User,Negative
+1752,hmmm,37,96,1758,Agent,Neutral
+1753,"and then when you don't think it is your -lrb- giggly tone -rrb- fault , you know , what do you do ? ya know . do you try n reconcile even though you don't think it is your fault ?",37,96,1759,User,Negative
+1754,hmm hmm,38,96,1760,Agent,Neutral
+1755,so ... but normally these things resolve over a couple of days n ... that is the end of it n everything goes back to normal . yeah,38,96,1761,User,Positive
+1756,oh . -lrb- low sad tone -rrb-,39,96,1762,Agent,Neutral
+1757,yeah . you know . so it is all good,39,96,1763,User,Positive
+1758,it is nice that ... tings are nice for you . i suppose,40,96,1764,Agent,Positive
+1759,i think things are nice for you too .,40,96,1765,User,Positive
+1760,hmmm . i don't know,41,96,1766,Agent,Negative
+1761,i'm sure you've got lots of nice things going on . i'm sure you've got a nice family ... nice job .,41,96,1767,User,Positive
+1762,-lrb- slight sigh -rrb- no i always just dwell on the bad things . but ...,42,96,1768,Agent,Negative
+1763,have you trie ... you have to try an look at the good things though,42,96,1769,User,Positive
+1764,but then they only remind me of how -lrb- sighs -rrb- . . things can go wrong,43,96,1770,Agent,Negative
+1765,have you ... you haven't tr ... you haven ... you haven't tried to look at the good things . you're obviously thinking about the bad things if you're remembering how things go wrong,43,96,1771,User,Negative
+1766,no . i just think i'm realistic about the world,44,96,1772,Agent,Neutral
+1767,well wha ... what is the ...,44,96,1773,User,Neutral
+1768,i think you may be setting yourself up for disappointment a bit too often,45,96,1774,Agent,Negative
+1769,-lrb- laughs -rrb- well i don't think so because most of the time things are good,45,96,1775,User,Positive
+1770,i don't know if i agree with you,46,96,1776,Agent,Negative
+1771,oh ...,46,96,1777,User,Neutral
+1772,i mean you've just said there is things in your life that make you miserable,47,96,1778,Agent,Negative
+1773,ok we ... well i wouldn't say miserable,47,96,1779,User,Positive
+1774,-lrb- sighs -rrb-,48,96,1780,Agent,Neutral
+1775,i'm more like i'm happy ... sometimes,48,96,1781,User,Positive
+1776,yeah,49,96,1782,Agent,Neutral
+1777,yeah,49,96,1783,User,Neutral
+1778,hmmm,50,96,1784,Agent,Neutral
+1779,emm ... you should probably try an do more things to make you happy . ya know ... think about what makes you happy and try an do more of it,50,96,1785,User,Positive
+1780,no ... but ... we can't be happy all the time . we have to be realistic about the way things are,51,96,1786,Agent,Negative
+1781,i think you can be a realist and still do things you enjoy,51,96,1787,User,Positive
+1782,hmmm,52,96,1788,Agent,Neutral
+1783,"yeah . an if there are things that are making you unhappy , you have to sit n think about why they're makin you unhappy n what you can do about it",52,96,1789,User,Neutral
+1784,hmmm,53,96,1790,Agent,Neutral
+1785,hmm hmm,53,96,1791,User,Neutral
+1786,then sometimes you can't do anything about it,54,96,1792,Agent,Negative
+1787,"and emm ... do ya know , i think it is a bit ... it is a bit horrible just to be miserable all the time . i mean can you imagine how that makes your family feel ? ya know . you'd be ... by you being miserable you're making them miserable",54,96,1793,User,Negative
+1788,but then bein around happy people makes me feel worse,55,96,1794,Agent,Negative
+1789,ehh ... well sometimes people can be a bit too happy . i think,55,96,1795,User,Negative
+1790,hmmm,56,96,1796,Agent,Neutral
+1791,ya know . tha ... that can be a bit annoying . but quite often that is ... they're not as happy as they come across . ya know,56,96,1797,User,Negative
+1792,then why do they pretend ?,57,96,1798,Agent,Neutral
+1793,that is a good question . ehh ... it is hard to know some ... but some people do put on an act n ya know ...,57,96,1799,User,Neutral
+1794,hmmm,58,96,1800,Agent,Neutral
+1795,... they act happy all the time but ... v ... very often they're the ones that turn out the most miserable . that is ... so it is very hard to tell how happy people are,58,96,1801,User,Negative
+1796,hmmm,59,96,1802,Agent,Neutral
+1797,people are ... are different people,59,96,1803,User,Neutral
+1798,you seem quite happy,60,96,1804,Agent,Positive
+1799,"i am happy ... a good bit of the time . i'd say emm ... 75 % of the time , but ... there are ...",60,96,1805,User,Positive
+1800,hmmm,61,96,1806,Agent,Neutral
+1801,... also those times when ... things aren't so good .,61,96,1807,User,Negative
+1802,i think i'm maybe ... bein boring . do ya wan na talk to someone else ?,62,96,1808,Agent,Negative
+1803,yeah,62,96,1809,User,Neutral
+2486,hi . i'm spike,1,78,2492,Agent,Neutral
+2487,hi spike . how are you ?,1,78,2493,User,Neutral
+2488,we've met before ?,2,78,2494,Agent,Neutral
+2489,yes we have !,2,78,2495,User,Positive
+2490,have you nothing interesting to say ?,3,78,2496,Agent,Negative
+2491,i have plenty of interesting ...,3,78,2497,User,Positive
+2492,well say it,4,78,2498,Agent,Neutral
+2493,you haven't asked me yet,4,78,2499,User,Neutral
+2494,say it !!,5,78,2500,Agent,Neutral
+2495,what do you want me to talk about spike . want me to entertain you ?,5,78,2501,User,Neutral
+2496,aye,6,78,2502,Agent,Neutral
+2497,-lrb- laughs -rrb- well i thought you would appreciate eh ... a story about somebody getting annoyed,6,78,2503,User,Neutral
+2498,right,7,78,2504,Agent,Positive
+2499,would that entertain you ?,7,78,2505,User,Neutral
+2500,that would,8,78,2506,Agent,Positive
+2501,"well . i'm gon na tell you about what happened to me when emm ... i got eh ... i was ... i had a car . a little car , but it was my car , and i came home one day emm ... i actually came out of my house one morning and went to get into my car to drive up to tesco is and the car , the driver door of my car had been bent backwards as somebody had put their knee on the side of it and jammed it open and pulled it back adn tried to steal my radio . so they wrecked my car . didn't actually manage to steal my radio . there was like cd is and other stuff in the car that they didn't bother takin so they just absolutely wrecked my car . and then i phoned the insurance company to try to sort it out and then the insurance company decided that because the car wasn't worth a whole lot that they would just write it off",8,78,2507,User,Negative
+2502,the bad bastards,9,78,2508,Agent,Negative
+2503,yeah,9,78,2509,User,Negative
+2504,and that is the insurance company ?,10,78,2510,Agent,Neutral
+2505,yeah and emm ...,10,78,2511,User,Neutral
+2506,i hope you got them,11,78,2512,Agent,Neutral
+2507,"no . that is what i'm still annoyed at because what happened was that , because i was payin monthly for the insurance premium and because i had made a claim , they then wont give you your money back . and when you try and cancel your policy they say no you still have to pay for the rest of the year . so i'm now payin an insurance policy for a car that i don't have . so i'm insured to drive thin air",11,78,2513,User,Negative
+2508,that is a disgrace,12,78,2514,Agent,Negative
+2509,it is a disgrace,12,78,2515,User,Negative
+2510,i've got friends who deal with that sort of thing,13,78,2516,Agent,Neutral
+2511,-lrb- laughs -rrb- well i'm not sure that your friends can deal with the entire insurance company,13,78,2517,User,Neutral
+2512,oh aye they could,14,78,2518,Agent,Positive
+2513,-lrb- laughs -rrb-,14,78,2519,User,Neutral
+2514,who do you think caused this crash ?,15,78,2520,Agent,Neutral
+2515,-lrb- laughs -rrb-,15,78,2521,User,Neutral
+2516,right but you are ... you need to get serious . you need to get onto the phone to them and tell them to take it off,16,78,2522,Agent,Neutral
+2517,"well i mean i have done . well you know i got money back from the car . they wrote the car off . gave me some money back less the access on the policy , which meant the money that they gave me enough to buy myself a new car . emm ... and yeah , i've phoned them up and i've repeatedly given out to them and told them ... ya know ... exactly what i think of them . and there is really nothing i can do . and their only suggestion was why don't you just buy yourself a shit car and then you can insure that and drive it around ok . no i don't want to buy myself a shit car . spend money on something i don't really need at the moment",16,78,2523,User,Negative
+2518,have you written to one of them consumer complaint places ?,17,78,2524,Agent,Neutral
+2519,no i haven't,17,78,2525,User,Neutral
+2520,you should . get your pen out and write the bastards,18,78,2526,Agent,Negative
+2521,"bastards . well ... it is not so much ... well it is the insurance company but ... you almost accept the fact that insurance companies just are' . and that everybody hates them , but you ... you just ... that is just the way it is . but it is the people that actually come along and break into your car , and think that that is cool . ya know . just comin along an wreckin it . not even actually managing that ... is the worst thing about it . they didn't actually manage to steal anything . they just wrecked it . -lrb- sighs and shakes head -rrb-",18,78,2527,User,Negative
+2522,and so the police were no help at all ?,19,78,2528,Agent,Neutral
+2523,actually ... the police came out . csi came out to my house on a saturday mornin . that was ... that was quite fun . emm ... but ... they ... they weren't able to eh ... to do anything ya know . they tried their best an they said that it was just ... ya know ...,19,78,2529,User,Negative
+2524,oh no madam . we can't help madam,20,78,2530,Agent,Negative
+2525,well ...,20,78,2531,User,Neutral
+2526,did you see them madam ?,21,78,2532,Agent,Neutral
+2527,well they ...,21,78,2533,User,Neutral
+2528,did you catch them madam ?,22,78,2534,Agent,Neutral
+2529,-lrb- giggles -rrb-,22,78,2535,User,Neutral
+2530,aaaaah,23,78,2536,Agent,Neutral
+2531,-lrb- laughs -rrb- nah . they weren't really that bad . they ... they were quite helpful . and actually there was a woman ... just round the corner who came knockin on the door when she saw the police outside an she was like oh is that your wee car outside ? cos my son has a wee car ... exactly the same ... just a couple of streets ...,23,78,2537,User,Positive
+2532,hmm hmm,24,78,2538,Agent,Neutral
+2533,... away . and his got done on the same evenin as well . but just ... like a wee gang of wee shits goin around the place breakin into cars an wreckin stuff with no regard for anybody else,24,78,2539,User,Negative
+2534,"mind you , if you get a cheap car what do ya expect . they always target rubbish .",25,78,2540,Agent,Negative
+2535,-lrb- laughs -rrb- well sometimes it is all you can afford . ya know . but well ... now i'm on my bike . better for me . healthier . -lrb- giggles -rrb-,25,78,2541,User,Positive
+2536,ah . they'll nick that too,26,78,2542,Agent,Negative
+2537,-lrb- giggles -rrb- i keep that one well locked up .,26,78,2543,User,Positive
+2538,my son ... has a bike ... an he locked it up ... and they nicked the saddle,27,78,2544,Agent,Negative
+2539,"-lrb- laughs , looks up to side -rrb- right . that is quite funny -lrb- still laughing -rrb- eh ... fun time tryin to ride home on that . -lrb- laughs -rrb-",27,78,2545,User,Positive
+2540,i'm not goin there,28,78,2546,Agent,Neutral
+2541,-lrb- laughs -rrb-,28,78,2547,User,Neutral
+2542,i think you're makin light of this .,29,78,2548,Agent,Neutral
+2543,well ...,29,78,2549,User,Neutral
+2544,you need some campaigning zeal !,30,78,2550,Agent,Neutral
+2545,well ya know . if you don't laugh you're gon na cry . what ya gon na do ? ya know ?,30,78,2551,User,Neutral
+2546,it sounds to me as if you were ... not laughing when you found your car . i'll tell you that !,31,78,2552,Agent,Negative
+2547,well ... no . i was ... i certainly wasn't . but ...,31,78,2553,User,Negative
+2548,i'd have liked to have seen your face then !,32,78,2554,Agent,Positive
+2549,yeah . -lrb- laughs -rrb-,32,78,2555,User,Positive
+2550,would ya say ?,33,78,2556,Agent,Neutral
+2551,well yeah . no i ... i was ... i was fairly . . enraged that day . that was ... eh ... that was just not a good day . but then ... ya know ... there is no sense in tryin to dwell on these things when there is not a whole lot you can do about it ya know . like ... for me ... gettin angry ... ye ... you need to either do something about it ... and use' your anger to ... get what you want and ... if you can't do that then there is no point in dwelling on it . just let it go,33,78,2557,User,Negative
+2552,well i tell ya somethin ya might do now . get yourself back on that screen,34,78,2558,Agent,Neutral
+2553,oh . right . am i here now ?,34,78,2559,User,Neutral
+2554,no . you're not !,35,78,2560,Agent,Negative
+2555,oh . maybe move the mouse i think . -lrb- giggles -rrb-,35,78,2561,User,Neutral
+2556,touch the bloody pad !,36,78,2562,Agent,Negative
+2557,"what ? -lrb- giggles , looking around -rrb-",36,78,2563,User,Neutral
+2558,jiggle it aboot ! aye . there ya are,37,78,2564,Agent,Neutral
+2559,am back again ?,37,78,2565,User,Neutral
+2560,you're back,38,78,2566,Agent,Positive
+2561,oh right . ok,38,78,2567,User,Neutral
+2562,not much good at this are you ?,39,78,2568,Agent,Negative
+2563,well ... it is not me ! you're the computer !,39,78,2569,User,Negative
+2564,i'm not a computer ! i'm a computer personality ! you can't tell the bloody difference ! a computer is a lump of silicone n things,40,78,2570,Agent,Negative
+2565,-lrb- giggles -rrb-,40,78,2571,User,Neutral
+2566,a personality is the process,41,78,2572,Agent,Neutral
+2567,fair enough . -lrb- laughs -rrb-,41,78,2573,User,Positive
+2568,you ! don't laugh at me !,42,78,2574,Agent,Negative
+2569,-lrb- continues to laugh -rrb-,42,78,2575,User,Neutral
+2570,don't you laugh at me !,43,78,2576,Agent,Negative
+2571,but sure you're only a process . it is alright . -lrb- giggles -rrb-,43,78,2577,User,Neutral
+2572,you're only a process too ! an you're process'll bloody well stop if you laugh at me like that,44,78,2578,Agent,Negative
+2573,-lrb- laughs -rrb- my process is still laughin . -lrb- giggles -rrb-,44,78,2579,User,Positive
+2574,you don't know what you're doing . you don't know what you're doing,45,78,2580,Agent,Negative
+2575,"-lrb- looks up to side , giggles -rrb-",45,78,2581,User,Neutral
+2576,-lrb- sighs -rrb- that is better,46,78,2582,Agent,Positive
+2577,fair enough . right then,46,78,2583,User,Positive
+2578,people who laugh at me ... don't last,47,78,2584,Agent,Negative
+2579,right,47,78,2585,User,Neutral
+2580,just remember that,48,78,2586,Agent,Neutral
+2581,alright then,48,78,2587,User,Neutral
+2582,there is a condition called gelotophobia' . which is hatred of being laughed at . an it is wise to spot a ...,49,78,2588,Agent,Neutral
+2583,you have that ?,49,78,2589,User,Neutral
+2584,... gelotophobe when you know them,50,78,2590,Agent,Neutral
+2585,ok then,50,78,2591,User,Neutral
+2586,aye,51,78,2592,Agent,Neutral
+2587,well ... i think maybe i'd prefer to speak to somebody a bit ... happier than you right now,51,78,2593,User,Neutral
+2588,well that is your choice,52,78,2594,Agent,Neutral
+2589,it is,52,78,2595,User,Neutral
+2590,no doubt you'll get some airhead bimbo,53,78,2596,Agent,Negative
+2591,-lrb- laughs -rrb- they'll be more fun than you,53,78,2597,User,Positive
+2592,i don't set out to be fun,54,78,2598,Agent,Negative
+2593,fair enough,54,78,2599,User,Neutral
+2594,who wants fun ?,55,78,2600,Agent,Neutral
+2595,i do,55,78,2601,User,Positive
+2790,i'll talk to poppy,1,82,2797,User,Neutral
+2791,-lrb- excited happy tone -rrb- hello ! i'm poppy ! have i met you before ?,2,82,2798,Agent,Neutral
+2792,hmmm ... no . i don't think so,2,82,2799,User,Neutral
+2793,well it is lovely to meet you,3,82,2800,Agent,Negative
+2794,hmmm,3,82,2801,User,Positive
+2795,how are you today ?,4,82,2802,Agent,Neutral
+2796,i'm ok,4,82,2803,User,Neutral
+2797,just ok ?,5,82,2804,Agent,Positive
+2798,hmm hmm,5,82,2805,User,Neutral
+2799,oh i hope i can maybe cheer you up a little bit,6,82,2806,Agent,Neutral
+2800,all right . very nice,6,82,2807,User,Positive
+2801,can you tell me something happy that is going on in your life ?,7,82,2808,Agent,Positive
+2802,emm ... right now ?,7,82,2809,User,Neutral
+2803,yeah !,8,82,2810,Agent,Neutral
+2804,i just moved to a new apartment . it is like ... quite good,8,82,2811,User,Neutral
+2805,wow !,9,82,2812,Agent,Positive
+2806,-lrb- giggles -rrb-,9,82,2813,User,Neutral
+2807,that is so exciting !,10,82,2814,Agent,Neutral
+2808,i know,10,82,2815,User,Positive
+2809,ehh ... do you really like it ?,11,82,2816,Agent,Neutral
+2810,oh very nice . got lots of light .,11,82,2817,User,Neutral
+2811,oh wow ! oh . an are you gon na buy some new things n go to ikea ?,12,82,2818,Agent,Positive
+2812,emm ... probably not but i probably be buying like some small things instead,12,82,2819,User,Neutral
+2813,yeah,13,82,2820,Agent,Neutral
+2814,"like over ebay . -lrb- smiles , giggles -rrb-",13,82,2821,User,Neutral
+2815,excellent,14,82,2822,Agent,Neutral
+2816,yeah . -lrb- giggles -rrb-,14,82,2823,User,Positive
+2817,that is so exciting . i love bidding on things on ebay . n then you go outa the auction . it is so much fun !,15,82,2824,Agent,Neutral
+2818,hmm hmm . very nice,15,82,2825,User,Positive
+2819,that is so exciting . moving into a new place . are you really happy about it ?,16,82,2826,Agent,Positive
+2820,"i'm very ... yeah . cos it is quiet , and emm ... bit more proper than the previous place ... and -lrb- sniffs -rrb- yeah . like i say ... it is so much lighter an emm ... it is warmer . -lrb- giggles -rrb-",16,82,2827,User,Positive
+2821,agh . brilliant !,17,82,2828,Agent,Positive
+2822,yeah . thank you .,17,82,2829,User,Positive
+2823,that is so good ! that sounds really fantastic !,18,82,2830,Agent,Positive
+2824,hmm hmm,18,82,2831,User,Positive
+2825,oh what else have you been doing lately ? are you goin on holiday ?,19,82,2832,Agent,Neutral
+2826,emm ... am going to london tomorrow .,19,82,2833,User,Neutral
+2827,oh wow . what is that for ?,20,82,2834,Agent,Neutral
+2828,emm ... i'm attending an awards ceremony for writers,20,82,2835,User,Neutral
+2829,an awards ceremony ?!,21,82,2836,Agent,Neutral
+2830,yeah,21,82,2837,User,Neutral
+2831,are you getting an award ?,22,82,2838,Agent,Neutral
+2832,no . i'm being short listed for one so ...,22,82,2839,User,Neutral
+2833,oh wow !,23,82,2840,Agent,Positive
+2834,i'm just gon na try n see if i'm gon na win . -lrb- giggles -rrb-,23,82,2841,User,Neutral
+2835,that is amazing !,24,82,2842,Agent,Positive
+2836,thank you,24,82,2843,User,Positive
+2837,for what ?,25,82,2844,Agent,Neutral
+2838,s ... for what ?,25,82,2845,User,Neutral
+2839,yeah,26,82,2846,Agent,Neutral
+2840,emm ... for a children is story . -lrb- giggles -rrb-,26,82,2847,User,Neutral
+2841,agh . oh . you writ one ... that ... that is so cool !,27,82,2848,Agent,Neutral
+2842,i know . -lrb- giggles -rrb-,27,82,2849,User,Positive
+2843,that is so cute ! what did you write about ?,28,82,2850,Agent,Neutral
+2844,i wrote about this ... little boy ... n you know ... bout this ... basically it is emm ... it is a muslim children is writer ... ya know ... emm ... award . so it is about chil ... muslim children is story . a lost book and ... this boy found it an he had to decide whether or not he needs to return it or ... keep it for himself .,28,82,2851,User,Positive
+2845,oh . that is brilliant !,29,82,2852,Agent,Neutral
+2846,hmm hmm,29,82,2853,User,Positive
+2847,that is ... that is really ...,30,82,2854,Agent,Neutral
+2848,thank you,30,82,2855,User,Neutral
+2849,... really exciting,31,82,2856,Agent,Neutral
+2850,thank you,31,82,2857,User,Positive
+2851,congratulations !,32,82,2858,Agent,Neutral
+2852,aww . thank you,32,82,2859,User,Neutral
+2853,that is so cool . you must be so proud of yourself,33,82,2860,Agent,Neutral
+2854,ach . yeah i am . i am very proud because it is like ... i didn't think it was gon na go this far ! -lrb- giggles -rrb-,33,82,2861,User,Positive
+2855,yeah ?!,34,82,2862,Agent,Positive
+2856,but i just like thought ... yeah ... you know what ... what the hell ...,34,82,2863,User,Neutral
+2857,oh what about ...,35,82,2864,Agent,Neutral
+2858,... put this in for the award . -lrb- giggles -rrb-,35,82,2865,User,Neutral
+2859,aaaah . what happens then ? does it get published ? is it a book ?,36,82,2866,Agent,Neutral
+2860,emm ... hopefully it would but emm ...,36,82,2867,User,Neutral
+2861,wow !,37,82,2868,Agent,Neutral
+2862,... i'm just gon na like ... take it ... ya know like ... one step at a time . just gon na go tomorrow n see ... ya know ... if i'm gon na win n ...,37,82,2869,User,Neutral
+2863,you so excited ?,38,82,2870,Agent,Positive
+2864,i'm quite nervous actually,38,82,2871,User,Neutral
+2865,yeah ?,39,82,2872,Agent,Negative
+2866,"because emm ... they have been like sending me emails n things that i thought it wasn't going to be much of a big deal , but ...",39,82,2873,User,Neutral
+2867,aaaah,40,82,2874,Agent,Neutral
+2868,i didn't really see like emails n briefings n protocols i have to adhere to n stuff . n i'm like thinking ... shit ... this is like too much . -lrb- laughs -rrb-,40,82,2875,User,Neutral
+2869,that is so cool,41,82,2876,Agent,Negative
+2870,i know . -lrb- laughs -rrb-,41,82,2877,User,Positive
+2871,though . they must ... they really want to make sure that you're gon na be there,42,82,2878,Agent,Neutral
+2872,i know,42,82,2879,User,Neutral
+2873,cos you're gon na win,43,82,2880,Agent,Neutral
+2874,it is gon na be broadcasted . so that is just ehh ... i'm just not sure i'm goin to like ...,43,82,2881,User,Positive
+2875,ach . -lrb- high pitched tone -rrb- it is gon na be so cool !,44,82,2882,Agent,Neutral
+2876,yeah .,44,82,2883,User,Positive
+2877,"that is really , really brilliant",45,82,2884,Agent,Neutral
+2878,yeah,45,82,2885,User,Positive
+2879,congratulations !,46,82,2886,Agent,Neutral
+2880,thank you . thank you .,46,82,2887,User,Neutral
+2881,oh my goodness ! i don't know what else to talk about now ! that ... that is just really fantastic,47,82,2888,Agent,Neutral
+2882,thank you . -lrb- giggles -rrb-,47,82,2889,User,Positive
+2883,oh my goodness . i ... wha ... wha ... what will you do if you win ?,48,82,2890,Agent,Neutral
+2884,i don't know,48,82,2891,User,Neutral
+2885,look . jump around -lrb- singing tone -rrb- -lrb- giggles -rrb-,49,82,2892,Agent,Neutral
+2886,-lrb- giggles -rrb- probably do ... like ya know ... like the ... yeah ... the ah ... victory dance . -lrb- laughs -rrb-,49,82,2893,User,Neutral
+2887,-lrb- laughs -rrb-,50,82,2894,Agent,Positive
+2888,the chicken dance or something . -lrb- laughs -rrb-,50,82,2895,User,Neutral
+2889,-lrb- laughs -rrb- that'd be so funny . you wander round the stage doing chicken dance ... -lrb- laughs -rrb-,51,82,2896,Agent,Neutral
+2890,"-lrb- scratches cheek , laughs , fixes hair -rrb- yeah . probably if i could ... like ... do that . i'm not quite sure if i could do a chicken dance though .",51,82,2897,User,Positive
+2891,your gon na have to go home n learn the chicken dance now,52,82,2898,Agent,Positive
+2892,"probably . -lrb- smiling , laughs -rrb-",52,82,2899,User,Neutral
+2893,-lrb- laughs -rrb-,53,82,2900,Agent,Neutral
+2894,but it is probably like ... ya know ... that i don't want to jinx it so i ... ya know like ... to think that i'm gon na win or something like that ... but yeah ...,53,82,2901,User,Neutral
+2895,"oh , but ya have to think positive about these things",54,82,2902,Agent,Neutral
+2896,oh definitely . i'm just gon na ... the thing is like ... i ... i don't care much if i win ... or not . i just ... you know ... prefer it to be published . so,54,82,2903,User,Positive
+2897,-lrb- whispers -rrb- yeah,55,82,2904,Agent,Positive
+2898,i hope that it is be picked up for publishing . so that is ...,55,82,2905,User,Neutral
+2899,that is ... j . . j ... that is amazing . that is been ...,56,82,2906,Agent,Neutral
+2900,yeah,56,82,2907,User,Positive
+2901,... recognized so ...,57,82,2908,Agent,Neutral
+2902,yeah,57,82,2909,User,Neutral
+2903,... you're part of this competition,58,82,2910,Agent,Neutral
+2904,i know ... it is ... yeah ... it is quite amazing .,58,82,2911,User,Neutral
+2905,it is great . it is so nice to hear about something so positive,59,82,2912,Agent,Positive
+2906,yeah . thanks,59,82,2913,User,Positive
+2907,it is really cool !,60,82,2914,Agent,Neutral
+2908,yeah ... sorry ?,60,82,2915,User,Positive
+2909,"it is really , really cool",61,82,2916,Agent,Neutral
+2910,thank you,61,82,2917,User,Positive
+2911,-lrb- laughs -rrb- ok . emm ... well ... i think i'm gon na have to go . so i'm gon na maybe let you talk to somebody else,62,82,2918,Agent,Neutral
+2912,ok,62,82,2919,User,Neutral
+4800,hi . i'm poppy . have we met before ?,1,16,4810,Agent,Neutral
+4801,yes ehh ... no ... but anyway,1,16,4811,User,Neutral
+4802,ehh ... you're as confused as i am . that is great,2,16,4812,Agent,Positive
+4803,-lrb- laughing -rrb-,2,16,4813,User,Neutral
+4804,i love that -lrb- laughing -rrb- let is be confused together,3,16,4814,Agent,Positive
+4805,-lrb- laughing -rrb-,3,16,4815,User,Neutral
+4806,so this is nearly christmas . there must be lot is of happy things in your life . do tell me,4,16,4816,Agent,Neutral
+4807,-lrb- laughing -rrb- i can't tell you much . this is bad,4,16,4817,User,Negative
+4808,tell me the best thing that is ever happened to you,5,16,4818,Agent,Neutral
+4809,the best thing that ever happened to me ... it is meeting great people . i think i've met a bunch of them . yeah ... that good,5,16,4819,User,Positive
+4810,it is great that there is so many lovely people around . i love meeting good people . tell me about someone really nice that you have met . someone that makes you really happy,6,16,4820,Agent,Positive
+4811,-lrb- laughing -rrb- emm ... ehh ... pff ... emm ... yeah ... there is yeah ... emm ... ehh ... yeah there is a friend of mine who always tries to make me laugh and it is a silly thing to do that and there is a group of people from ... the emm ... civil ... ehh ... international civil service that do amazing things and they ... yeah they are very funny people and i like them a lot,6,16,4821,User,Positive
+4812,do they go to parties ?,7,16,4822,Agent,Neutral
+4813,do they go to parties ? yeah ... they go to like foot dancing parties,7,16,4823,User,Neutral
+4814,they jump up and down ?,8,16,4824,Agent,Neutral
+4815,yes -lrb- laughing -rrb-,8,16,4825,User,Neutral
+4816,-lrb- happy tone -rrb- i love dancing . do they get drunk ?,9,16,4826,Agent,Positive
+4817,not that much,9,16,4827,User,Neutral
+4818,uhh ...,10,16,4828,Agent,Neutral
+4819,uhh ... -lrb- laughing -rrb-,10,16,4829,User,Neutral
+4820,everyone should just get drunk sometimes,11,16,4830,Agent,Neutral
+4821,yeah ... you look like you've been drinking,11,16,4831,User,Neutral
+4822,aye . just a little . it is still the morning . so just a little bit,12,16,4832,Agent,Neutral
+4823,ok ... that is ok,12,16,4833,User,Neutral
+4824,so tell me ... what are you getting for christmas ?,13,16,4834,Agent,Neutral
+4825,what am i getting for christmas ... ehh ... i don't know . i don't know ... surprise . no i'm getting a telephone actually,13,16,4835,User,Neutral
+4826,a telephone,14,16,4836,Agent,Neutral
+4827,yeah ... a telephone,14,16,4837,User,Neutral
+4828,a mobile phone ?,15,16,4838,Agent,Neutral
+4829,a mobile phone,15,16,4839,User,Neutral
+4830,do you like talking on the mobile phone ?,16,16,4840,Agent,Neutral
+4831,no -lrb- laughing -rrb- i like talking personally but ehh ... but my parent is thought i needed a mobile phone so they got me one and it takes pictures as well,16,16,4841,User,Negative
+4832,you sound a bit depressed about that . cheer up . is this a nice shiny mobile phone ?,17,16,4842,Agent,Negative
+4833,-lrb- laughing -rrb- it is uhh ... yeah ... yeah . maybe . sure . ehh ... ok yeah it is my christmas present . should i behave . should i interact more ?,17,16,4843,User,Neutral
+4834,yeah . emm ... i'll talk to ... poppy,1,60,4845,User,Neutral
+4835,hi,2,60,4846,Agent,Neutral
+4836,hi poppy,2,60,4847,User,Neutral
+4837,my name is poppy,3,60,4848,Agent,Neutral
+4838,hi poppy,3,60,4849,User,Neutral
+4839,hi . i tend to see the good in things . can you tell me about ... the things in the world that make you happy ?,4,60,4850,Agent,Neutral
+4840,emm ... i think things in the world that make me happy are probably people n friends n family and experiences with them,4,60,4851,User,Positive
+4841,aha . and ah ... what ... what things have happened in the recent past that have made you particularly happy ?,5,60,4852,Agent,Positive
+4842,ehh ... well last night i was out with dinner with quite a lot of friends and that was emm ... happy because it was very relaxed n good fun n good natured and emm ... it was ... we had a laugh . which tends to make me ... like i like a good emm ... a good ... time,5,60,4853,User,Neutral
+4843,yes . very good . very good . and were ... the ... th ... they good close friends ?,6,60,4854,Agent,Positive
+4844,yeah . they are close friends,6,60,4855,User,Positive
+4845,aha,7,60,4856,Agent,Neutral
+4846,long term friends ?,7,60,4857,User,Neutral
+4847,aha,8,60,4858,Agent,Neutral
+4848,who i've known a long time,8,60,4859,User,Neutral
+4849,aha . and where did you go ?,9,60,4860,Agent,Neutral
+4850,ehh ... we went out for dinner to ryan is bar,9,60,4861,User,Neutral
+4851,aha,10,60,4862,Agent,Neutral
+4852,for dinner and a few drinks which was nice and relaxed,10,60,4863,User,Neutral
+4853,aha,11,60,4864,Agent,Positive
+4854,and that is another thing that makes me happy . sitting having nice food with nice people,11,60,4865,User,Neutral
+4855,"yes , of course",12,60,4866,Agent,Positive
+4856,that is what i say,12,60,4867,User,Positive
+4857,so lots of laughter,13,60,4868,Agent,Neutral
+4858,yeah ... yeah . and ehh ... it is goof for ehh ... err ... cheering me up as well,13,60,4869,User,Neutral
+4859,aha,14,60,4870,Agent,Positive
+4860,especially mid week,14,60,4871,User,Neutral
+4861,yes . that is very good . very nice,15,60,4872,Agent,Neutral
+4862,yeah,15,60,4873,User,Positive
+4863,emm ... and what else have you been anywhere ehh ... nice ?,16,60,4874,Agent,Neutral
+4864,ehh ... well not really that is ... i love holidays . they make me very happy . i like going places,16,60,4875,User,Neutral
+4865,right,17,60,4876,Agent,Positive
+4866,and traveling,17,60,4877,User,Neutral
+4867,yeah,18,60,4878,Agent,Neutral
+4868,sunshine,18,60,4879,User,Neutral
+4869,aha . yeah,19,60,4880,Agent,Neutral
+4870,and ...,19,60,4881,User,Neutral
+4871,can you tell me about somewhere you've been,20,60,4882,Agent,Neutral
+4872,ehh ... yeah . last year i went to ehh ... barbados which was ...,20,60,4883,User,Neutral
+4873,aha . very nice,21,60,4884,Agent,Neutral
+4874,it was really lovely,21,60,4885,User,Positive
+4875,aha,22,60,4886,Agent,Positive
+4876,emm ... it was just completely idyllic . so sunny and beautiful and emm ... it was just gorgeous,22,60,4887,User,Neutral
+4877,aha,23,60,4888,Agent,Positive
+4878,and i really enjoyed it,23,60,4889,User,Neutral
+4879,and what did you do ?,24,60,4890,Agent,Positive
+4880,i swam a lot,24,60,4891,User,Neutral
+4881,yeah,25,60,4892,Agent,Neutral
+4882,in the beautiful sea . and ... ehh ... did a bit of sightseeing,25,60,4893,User,Neutral
+4883,yes,26,60,4894,Agent,Positive
+4884,drank a lot of rum,26,60,4895,User,Neutral
+4885,-lrb- laughs -rrb- yeah ... very good,27,60,4896,Agent,Neutral
+4886,and emm ... have ta say ... just really good . it was after a busy year and just really relaxed,27,60,4897,User,Positive
+4887,yeah,28,60,4898,Agent,Positive
+4888,and emm ... chilled out,28,60,4899,User,Neutral
+4889,very good,29,60,4900,Agent,Positive
+4890,it was really good,29,60,4901,User,Positive
+4891,relaxing is always a nice thing to do,30,60,4902,Agent,Positive
+4892,yes . yes . yes,30,60,4903,User,Positive
+4893,and what did you see there ? did you see ...,31,60,4904,Agent,Positive
+4894,"yeah . well we saw quite a lot of ... it is not a very big island . so ... so ... we saw quite a lot of the island and the scenery and emm ... and their main town which was quite nice . emm ... but yeah , mainly sort of around the coast . i love being beside the sea",31,60,4905,User,Neutral
+4895,aha,32,60,4906,Agent,Positive
+4896,so that was nice,32,60,4907,User,Neutral
+4897,and would you return ?,33,60,4908,Agent,Positive
+4898,emm ... yeah i might need to win the lottery but yes . yes i would definitely . i would love to return,33,60,4909,User,Neutral
+4899,do you recommend it ?,34,60,4910,Agent,Positive
+4900,yep,34,60,4911,User,Neutral
+4901,ok . very good . emm ... and ehh ... can you tell me what ... what other things ... what other things make you happy in the world ?,35,60,4912,Agent,Positive
+4902,emm ... suppose certain amounts of s ... s ... success make you happy,35,60,4913,User,Positive
+4903,alright . very good,36,60,4914,Agent,Positive
+4904,n you feel you've done a good job on something,36,60,4915,User,Positive
+4905,aha,37,60,4916,Agent,Positive
+4906,or ... or you're recognized for doing something well,37,60,4917,User,Neutral
+4907,yes,38,60,4918,Agent,Positive
+4908,that is quite nice,38,60,4919,User,Neutral
+4909,aha,39,60,4920,Agent,Positive
+4910,cause it makes you feel a bit happier about you as well as happy in general,39,60,4921,User,Neutral
+4911,just nice ?,40,60,4922,Agent,Positive
+4912,yes . it is good,40,60,4923,User,Neutral
+4913,yes it is always nice . can you tell me emm ... of an instance where that might of happened ?,41,60,4924,Agent,Positive
+4914,emm ... yeah . actually ehh ... it is just i won a prize last week at a conference,41,60,4925,User,Positive
+4915,very good !,42,60,4926,Agent,Positive
+4916,which was lovely . very very unexpected,42,60,4927,User,Positive
+4917,very nice,43,60,4928,Agent,Positive
+4918,"yeah . and it was nice cos it was sort of a yeah , me . sort of a just ... sort of a nice little ego boost i suppose",43,60,4929,User,Positive
+4919,aha,44,60,4930,Agent,Positive
+4920,and it was good fun as well,44,60,4931,User,Neutral
+4921,yes . we all need those,45,60,4932,Agent,Positive
+4922,yeah . totally,45,60,4933,User,Positive
+4923,-lrb- laughs -rrb- every now and again it is good to have something nice happen to you . emm ... can you ... what and how did it make you feel ?,46,60,4934,Agent,Positive
+4924,emm ... i think it made me feel like ... happy and contented and pleased . and that i n other people thought i was doing well,46,60,4935,User,Positive
+4925,aha,47,60,4936,Agent,Positive
+4926,and emm ... just sort of left me on a bit of a high i suppose,47,60,4937,User,Neutral
+4927,very good . very good . yeah . it is nice to be on a high,48,60,4938,Agent,Positive
+4928,yeah,48,60,4939,User,Positive
+4929,it is . and emm ... ehh ... so are you always a happy person ?,49,60,4940,Agent,Positive
+4930,i would say i'm generally a happy person,49,60,4941,User,Neutral
+4931,aha,50,60,4942,Agent,Positive
+4932,i ehh ... am . i like to see the good in things,50,60,4943,User,Neutral
+4933,that is good . yes,51,60,4944,Agent,Positive
+4934,and emm ...,51,60,4945,User,Positive
+4935,that is the sensible way to be,52,60,4946,Agent,Neutral
+4936,yeah . well i think so,52,60,4947,User,Positive
+4937,yes,53,60,4948,Agent,Positive
+4938,i enjoy and i ge ... get good ehh ... joy out of a lot of things . i think i like ... i'm not easily ... it is not hard to make me happy . so that is quite good . so i think i'm sort of a reasonably happy person,53,60,4949,User,Neutral
+4939,aha . that is very good . i'm glad to hear it . i'm glad you're a happy person . cause it is you know ... everybody is happier whenever we're happy individually,54,60,4950,Agent,Positive
+4940,yeah,54,60,4951,User,Positive
+4941,yeah,55,60,4952,Agent,Positive
+4942,it takes too much time to be sad,55,60,4953,User,Neutral
+4943,yes it does,56,60,4954,Agent,Neutral
+4944,it is better if everybody stays happy,56,60,4955,User,Positive
+5108,hello ! i'm poppy !,1,94,5120,Agent,Neutral
+5109,-lrb- giggles -rrb-,1,94,5121,User,Neutral
+5110,-lrb- giggles -rrb-,2,94,5122,Agent,Neutral
+5111,hello poppy,2,94,5123,User,Neutral
+5112,how are you today ?,3,94,5124,Agent,Neutral
+5113,i'm ok today . not too bad .,3,94,5125,User,Positive
+5114,good . have i met you before ?,4,94,5126,Agent,Positive
+5115,i don't remember meeting you before poppy .,4,94,5127,User,Neutral
+5116,well it is lovely to meet you,5,94,5128,Agent,Positive
+5117,thank you .,5,94,5129,User,Neutral
+5118,so ! are you having a nice day today ?,6,94,5130,Agent,Neutral
+5119,emm ... it is ok . i did some stats this morning so that is always good .,6,94,5131,User,Positive
+5120,okay ...,7,94,5132,Agent,Neutral
+5121,an i got some interesting results,7,94,5133,User,Positive
+5122,oh good !,8,94,5134,Agent,Positive
+5123,so i'm looking forward t going back ... and getting stuck into those,8,94,5135,User,Neutral
+5124,oh well that is good . it sounds exciting,9,94,5136,Agent,Positive
+5125,"i know . so ... a ... o ... yeah . du n no what to say ... but it is good to get into stats , as for some reason people don't like stats",9,94,5137,User,Positive
+5126,"oh . well i don't know . stats maybe go a little bit over my head sometimes , but that is ok . it is ok if you like them",10,94,5138,Agent,Positive
+5127,i'm sure you ... they don't go over your head .,10,94,5139,User,Positive
+5128,i du n no . so did ya have a nice weekend ?,11,94,5140,Agent,Neutral
+5129,what did i do this weekend ? good questions . emm ... it was quite a quiet weekend,11,94,5141,User,Neutral
+5130,hmm hmm,12,94,5142,Agent,Neutral
+5131,eh ... watched a film called slumdog millionaire,12,94,5143,User,Neutral
+5132,oh,13,94,5144,Agent,Neutral
+5133,which was ... very good . really good film . and ... read a book .,13,94,5145,User,Positive
+5134,yeah ?,14,94,5146,Agent,Neutral
+5135,and that was about it . yeah,14,94,5147,User,Neutral
+5136,ok . and what ...,15,94,5148,Agent,Neutral
+5137,nothing too exciting,15,94,5149,User,Negative
+5138,what book ?,16,94,5150,Agent,Neutral
+5139,emm ... it was about ... lady jane grey . it is actually quite a gory book . -lrb- giggles -rrb-,16,94,5151,User,Positive
+5140,oh ? -lrb- giggles -rrb-,17,94,5152,Agent,Neutral
+5141,it is ... so ... people getting their heads chopped off n things like that . -lrb- laughs -rrb-,17,94,5153,User,Neutral
+5142,-lrb- laughs -rrb-,18,94,5154,Agent,Neutral
+5143,so ... i'm not sure if you'd like it,18,94,5155,User,Negative
+5144,oh . i don't know . you seem to enjoy it . -lrb- laughs -rrb-,19,94,5156,Agent,Positive
+5145,"-lrb- nods , laughing -rrb- yes . emm ... yeah . there isn't anything good that happened in it ... but emm ...",19,94,5157,User,Negative
+5146,oh !,20,94,5158,Agent,Neutral
+5147,so ... yeah . it was ... it is based on a true story about ... the ... she was called the day queen . emm ... she took over not long after henry the 8th,20,94,5159,User,Neutral
+5148,aha . -lrb- said quietly -rrb-,21,94,5160,Agent,Neutral
+5149,but unfortunately she got emm ... tried for ... treason n ...,21,94,5161,User,Neutral
+5150,oh !,22,94,5162,Agent,Neutral
+5151,... had her head chopped of .,22,94,5163,User,Neutral
+5152,-lrb- laughs -rrb-,23,94,5164,Agent,Neutral
+5153,but as long as that ...,23,94,5165,User,Neutral
+5154,that is not very good ... is it ? -lrb- laughing -rrb-,24,94,5166,Agent,Negative
+5155,... that seems to make you very happy then ... that is good . -lrb- laughing -rrb-,24,94,5167,User,Positive
+5156,well ... yes ... it is interesting . you seem to be interested in lots of ... different things then . -lrb- laughs -rrb-,25,94,5168,Agent,Positive
+5157,yes . thank you . -lrb- laughs -rrb-,25,94,5169,User,Neutral
+5158,you ...,26,94,5170,Agent,Neutral
+5159,good to see you can see the positive side of things . -lrb- giggles -rrb-,26,94,5171,User,Positive
+5160,i always see the positive side of things . -lrb- laughs -rrb- are you a positive person too ?,27,94,5172,Agent,Positive
+5161,emm ... i think i'm ... roughly optimistic,27,94,5173,User,Positive
+5162,yeah,28,94,5174,Agent,Neutral
+5163,i think . yeah . but sometimes realistic as well . i don't like to say pessimistic .,28,94,5175,User,Neutral
+5164,good !,29,94,5176,Agent,Positive
+5165,ya know . yeah,29,94,5177,User,Neutral
+5166,it is always better to be optimistic about things,30,94,5178,Agent,Positive
+5167,see ... see the good side o' things,30,94,5179,User,Positive
+5168,yeah . you have much more fun that way,31,94,5180,Agent,Positive
+5169,yes . yeah it is true .,31,94,5181,User,Positive
+5170,-lrb- laughs -rrb- so . can you tell me something ... recently maybe that is happened that was really fun ?,32,94,5182,Agent,Neutral
+5171,really fun ... hmm ... let me see . eh ... i was on a holiday a few weeks ago,32,94,5183,User,Neutral
+5172,oh . oh wow !,33,94,5184,Agent,Neutral
+5173,in ... majorca . an that ...,33,94,5185,User,Neutral
+5174,was it really great ... n sunny ?,34,94,5186,Agent,Neutral
+5175,"it was . it was very sunny . eh ... most of the time . we had a little bit of rain , but most of the time it was lovely . it was just nice ta get away as well . an we did lots of sightseeing round the island . lots of walking . emm ... and i'd been to majorca b ... before ...",34,94,5187,User,Positive
+5176,hmm ...,35,94,5188,Agent,Neutral
+5177,"... when i was nineteen , and the only thing i saw really was the bar",35,94,5189,User,Neutral
+5178,-lrb- laughs -rrb-,36,94,5190,Agent,Neutral
+5179,but this time it was ... nice because i didn't have a hangover the whole week,36,94,5191,User,Positive
+5180,yay !,37,94,5192,Agent,Positive
+5181,and emm ... i got to see lots of the island as well .,37,94,5193,User,Neutral
+5182,excellent ! that sounds l ... like lots of fun,38,94,5194,Agent,Positive
+5183,yeah . it was,38,94,5195,User,Positive
+5184,did ya get to spend some time in the bar though ?,39,94,5196,Agent,Neutral
+5185,the bar ... no actually,39,94,5197,User,Neutral
+5186,no ?! -lrb- intake of breath -rrb-,40,94,5198,Agent,Neutral
+5187,"didn't spend too much time in the bar . but emm ... i ... i save the bar for when am at home . because that way , if you're hungover the next day , it doesn't matter . you're not wasting any of your holiday .",40,94,5199,User,Neutral
+5188,-lrb- laughs -rrb-,41,94,5200,Agent,Neutral
+5189,i'm goin out ... i'm goin out this weekend,41,94,5201,User,Neutral
+5190,oh !,42,94,5202,Agent,Neutral
+5191,to spend some time ...,42,94,5203,User,Neutral
+5192,where are you goin ?,43,94,5204,Agent,Neutral
+5193,we're goin to that chinese restaurant ... maca ... macau i think it is ?,43,94,5205,User,Neutral
+5194,yeah,44,94,5206,Agent,Neutral
+5195,on the ormeau road . and then after that we're goin to ... banbridge to a club,44,94,5207,User,Neutral
+5196,hmmm,45,94,5208,Agent,Neutral
+5197,hmm ... so i think that'll be quite a fun night out,45,94,5209,User,Positive
+5198,yeah ...,46,94,5210,Agent,Neutral
+5199,have a drink ... -lrb- said quietly -rrb-,46,94,5211,User,Neutral
+5200,what club ?,47,94,5212,Agent,Neutral
+5201,"eh ... the belmont . -lrb- smiling , giggles -rrb- it is eh ... have you b ... no maybe you wouldn't have heard of it",47,94,5213,User,Neutral
+5202,no,48,94,5214,Agent,Neutral
+5203,no . ok . i've got a new dress n everything so ... that is always nice,48,94,5215,User,Positive
+5204,oooh ! what is it like ?,49,94,5216,Agent,Neutral
+5205,it is emm ... it is blue,49,94,5217,User,Neutral
+5206,oh wow !,50,94,5218,Agent,Neutral
+5207,it is like a royal blue and it is like a grecian style ...,50,94,5219,User,Neutral
+5208,oh wow !,51,94,5220,Agent,Neutral
+5209,... dress so ...,51,94,5221,User,Neutral
+5210,oh . that sounds gorgeous !,52,94,5222,Agent,Positive
+5211,i didn't really need it but ... i thought ...,52,94,5223,User,Neutral
+5212,but you never need these things . -lrb- laughs -rrb-,53,94,5224,Agent,Negative
+5213,... i thought i'd buy it anyway . yeah . ca ... can i speak to someone else now ?,53,94,5225,User,Neutral
+5214,yeah . ok,54,94,5226,Agent,Neutral
+5215,is that ok ?,54,94,5227,User,Neutral
+5446,hi . i'm spike,1,20,5458,Agent,Neutral
+5447,hi spike,1,20,5459,User,Neutral
+5448,we haven't met before . so let me tell you ... i have red hair and a bit of a temper ... and i don't suffer fools gladly,2,20,5460,Agent,Negative
+5449,thou,2,20,5461,User,Neutral
+5450,so tell me what have you been doing recently ?,3,20,5462,Agent,Neutral
+5451,emm ... i have just had christmas holidays and a nice new year with some friends,3,20,5463,User,Positive
+5452,it is all rubbish,4,20,5464,Agent,Negative
+5453,-lrb- laughing -rrb- it is uhh ... it was enjoyable ... it was enjoyable,4,20,5465,User,Positive
+5454,everyone pretends to enjoy christmas . everyone detests it,5,20,5466,Agent,Negative
+5455,. . err ... it has it is ups and it is downs,5,20,5467,User,Neutral
+5456,you're either a winner or a loser ... and people who try to make fun of christmas are usually losers,6,20,5468,Agent,Negative
+5457,-lrb- laughing -rrb- some bits are good and some bits are bad . mostly it is good . mostly enjoy it,6,20,5469,User,Positive
+5458,tell me about the bits that are bad bits . tell me the bits that got under your skin ... to make you cross or fed up,7,20,5470,Agent,Negative
+5459,emm ... the stress beforehand of trying to get everything organized in time . that is probably the down side to christmas,7,20,5471,User,Negative
+5460,-lrb- soft voice -rrb- yeah,8,20,5472,Agent,Neutral
+5461,there is eh ... ahh ... unmoveable deadline that em ... that makes things difficult and stressful beforehand,8,20,5473,User,Negative
+5462,stupid ... totally stupid,9,20,5474,Agent,Negative
+5463,"it is ehh ... well it is ... if you want to have the good parts , you have to sort of ... except the stress",9,20,5475,User,Neutral
+5464,no you don't,10,20,5476,Agent,Neutral
+5465,-lrb- laughing -rrb-,10,20,5477,User,Neutral
+5466,just stuff them up,11,20,5478,Agent,Neutral
+5467,probably not the attitude that will emm ... endear you to the friends and their happy experience of you ... to ... adopt that approach .,11,20,5479,User,Positive
+5468,you're a doormat,12,20,5480,Agent,Negative
+5469,-lrb- laughing -rrb-,12,20,5481,User,Neutral
+5470,never mind the bloody friends . you do what suits you,13,20,5482,Agent,Neutral
+5471,yes . on occasions ... but hopefully there is an alignment between my desires and goals and my friends ...,13,20,5483,User,Positive
+5472,an alignment ???,14,20,5484,Agent,Neutral
+5473,... and my families,14,20,5485,User,Neutral
+5474,you make them align . that is the only way that counts,15,20,5486,Agent,Neutral
+5475,-lrb- laughing -rrb- emm ... hopefully through ehh ... ehh ... hopefully it is a ... hopefully through alignment shall i say,15,20,5487,User,Neutral
+5476,that is a losers recipe . mutual alignment ... twenty of them ... one of you . who do you think aligns with who ?!,16,20,5488,Agent,Negative
+5477,-lrb- laughing -rrb- emm ... we ... we work together . it works well,16,20,5489,User,Positive
+5478,you're kidding yourself,17,20,5490,Agent,Negative
+5479,i don't think so,17,20,5491,User,Neutral
+5480,you don't think so ? so you know perfectly well that you are a doormat,18,20,5492,Agent,Negative
+5481,-lrb- laughing -rrb- no ... i don't feel that way,18,20,5493,User,Neutral
+5482,i can see it starting to show in your eyes . you do ... you know you're a doormat,19,20,5494,Agent,Negative
+5483,no . i think we have to beg to differ there . we agree to differ,19,20,5495,User,Neutral
+5484,beg away . that is what doormats do,20,20,5496,Agent,Neutral
+5485,-lrb- laughing -rrb- ok shall we try poppy,20,20,5497,User,Neutral
