@@ -22,7 +22,7 @@ import csv
 import os
 import textwrap
 
-import numpy as np
+import pandas as pd
 import six
 
 import datasets
@@ -41,8 +41,8 @@ _SILICONE_DESCRIPTION = """\
 The Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE (SILICONE) benchmark is a collection
  of resources for training, evaluating, and analyzing natural language understanding systems
  designed for spoken language prepared by Ebenge Usip (https://github.com/eusip/), Research Engineer
- in the Image, Data, Signal department at Télécom Paris. Mappings for the SwDA (Dialog Act),
- MRDA (Dialog Act) and IEMOCAP (Emotion) datasets.
+ in the Image, Data, Signal department at Télécom Paris. Mappings for the dialogue acts and emotions
+ of the SwDA (Dialog Act), MRDA (Dialog Act) and IEMOCAP (Emotion) datasets can be found in the code.
 """
 
 _URL = "https://raw.githubusercontent.com/eusip/SILICONE-benchmark/main"
@@ -54,8 +54,6 @@ SWDA_DA_DESCRIPTION = {
     "%": "Uninterpretable",
     "aa": "Agree/Accept",
     "ba": "Appreciation",
-    "qy": "Yes-No-Question",
-    "ny": "Yes Answers",
     "fc": "Conventional-closing",
     "qw": "Wh-Question",
     "nn": "No Answers",
@@ -66,6 +64,7 @@ SWDA_DA_DESCRIPTION = {
     "^q": "Quotation",
     "bf": "Summarize/Reformulate",
     'fo_o_fw_"_by_bc': "Other",
+    'fo_o_fw_by_bc_"': "Other",
     "na": "Affirmative Non-yes Answers",
     "ad": "Action-directive",
     "^2": "Collaborative Completion",
@@ -89,64 +88,20 @@ SWDA_DA_DESCRIPTION = {
     "qw^d": "Declarative Wh-Question",
     "fa": "Apology",
     "ft": "Thanking",
+    "+": "Unknown",
+    "x": "Unknown",
+    "ny": "Unknown",
+    "sv_fx": "Unknown",
+    "qy_qr": "Unknown",
+    "ba_fe": "Unknown",
 }
 
 MRDA_DA_DESCRIPTION = {
-    "%": "Indecipherable",
-    "%--": "Abandoned",
-    "%-": "Interruption",
-    "x": "Nonspeech",
-    "t1": "Self-Talk",
-    "t3": "3rd-Party Talk",
-    "t": "Task Management",
     "s": "Statement/Subjective Statement",
-    "qw": "Wh-Question",
-    "qy": "Y/N Question",
-    "qo": "Open-Ended Question",
-    "qr": "Or Question",
-    "qrr": "Or Clause After Y/N Question",
-    "qh": "Rhetorial Question",
     "d": "Declarative Question",
-    "g": "Tag Question",
-    "co": "Command",
-    "cs": "Sugestion",
-    "cc": "Commit (self-inclusive)",
-    "tc": "Topic Change",
-    "fe": "Exclamation",
-    "ft": "Thanks",
-    "fw": "Welcome",
-    "fa": "Apology",
-    "fh": "Floor-Holder",
-    "fg": "Floor-Grabber",
-    "aa": "Accept, Yes Answers",
-    "aap": "Partial Accept",
-    "arp": "Partial Reject",
-    "am": "Maybe",
-    "ar": "Reject, No Answers",
-    "h": "Hold",
-    "2": "Collaborative Completion",
     "b": "Backchannel",
-    "bk": "Acknowledgment",
-    "m": "Mimic",
-    "r": "Repeat",
-    "bs": "Reformulation",
-    "ba": "Appreciation",
-    "by": "Sympathy",
-    "bd": "Downplayer",
-    "bc": "Misspeak Correction",
-    "bh": "Rhetorial Question Backchannel",
-    "br": "Signal Non-understanding",
-    "bu": "Understanding Check",
-    "df": "Defending/Explanation",
-    "bsc": "Misspeak Self-correction",
     "f": '"Follow-me"',
-    "e": "Expansion/Supporting addition",
-    "na": "Narrative-affirmative answers",
-    "ng": "Narrative-negative answers",
-    "no": "No knowledge answers",
-    "nd": "Dispreferred answers",
-    "j": "Humorous Material",
-    "z": "Nonlabeled",
+    "q": "Question",
 }
 
 IEMOCAP_E_DESCRIPTION = {
@@ -181,9 +136,9 @@ class SiliconeConfig(datasets.BuilderConfig):
         Args:
           text_features: `dict[string, string]`, map from the name of the feature
             dict for each text field to the name of the column in the tsv file
-          label_column: `string`, name of the column in the tsv file corresponding
+          label_column: `string`, name of the column in the csv/txt file corresponding
             to the label
-          data_url: `string`, url to download the zip file from
+          data_url: `string`, url to download the csv/text file from
           citation: `string`, citation for the data set
           url: `string`, url for information about the data set
           label_classes: `list[string]`, the list of classes if the label is
@@ -207,7 +162,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
             name="dyda_da",
             description=textwrap.dedent(
                 """\
-            The DailyDialog Act Corpus contains multi-turn dialogues, supposed to reflect daily
+            The DailyDialog Act Corpus contains multi-turn dialogues and is supposed to reflect daily
             communication by covering topics about daily life. The dataset is manually labelled with
              dialog act and emotions. It is the third biggest corpus of SILICONE with 102k utterances."""
             ),
@@ -238,7 +193,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
             name="dyda_e",
             description=textwrap.dedent(
                 """\
-            The DailyDialog Act Corpus contains multi-turn dialogues, supposed to reflect daily
+            The DailyDialog Act Corpus contains multi-turn dialogues and is supposed to reflect daily
             communication by covering topics about daily life. The dataset is manually labelled with
              dialog act and emotions. It is the third biggest corpus of SILICONE with 102k utterances."""
             ),
@@ -272,15 +227,15 @@ class Silicone(datasets.GeneratorBasedBuilder):
             The IEMOCAP database is a multi-modal database of ten speakers. It consists of dyadic
             sessions where actors perform improvisations or scripted scenarios. Emotion categories
             are: anger, happiness, sadness, neutral, excitement, frustration, fear, surprise, and other.
-            There is no official split on this dataset."""
+            There is no official split of this dataset."""
             ),
             text_features={
               "Dialogue_ID": "Dialogue_ID",
-              "Utterance_ID": "Utterance_Id",
+              "Utterance_ID": "Utterance_ID",
               "Utterance": "Utterance",
               "Emotion": "Emotion",
             },
-            label_classes=list(IEMOCAP_E_DESCRIPTION.keys()),
+            label_classes=list(six.iterkeys(IEMOCAP_E_DESCRIPTION)),
             label_column="Emotion",
             data_url={
                 "train": os.path.join(_URL, "iemocap", "train.csv"),
@@ -308,7 +263,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 """\
             The HCRC MapTask Corpus was constructed through the verbal collaboration of participants in order to
             construct a map route. This corpus is small (27k utterances). As there is no standard train/dev/test
-            split performances depends on the split."""
+            split performance depends on the split."""
             ),
             text_features={
                 "Speaker": "Speaker",
@@ -414,7 +369,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 "Dialogue_ID": "Dialogue_ID",
                 "Utterance": "Utterance",
             },
-            label_classes=list(MRDA_DA_DESCRIPTION.keys()),
+            label_classes=list(six.iterkeys(MRDA_DA_DESCRIPTION)),
             label_column="Dialogue_Act",
             data_url={
                 "train": os.path.join(_URL, "mrda", "train.csv"),
@@ -450,7 +405,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 "expressPossibility", "expressRegret", "expressWish", "greet", "hold", "identifySelf",
                 "inform", "informCont", "informDisc", "informIntent", "init", "negate", "offer", "pardon",
                 "raiseIssue", "refer", "refuse", "reqDirect", "reqInfo", "reqModal", "selfTalk", "suggest",
-                "thank"
+                "thank", "informIntent-hold", "correctSelf", "expressRegret-inform", "thank-identifySelf"
             ],
             label_column="Dialogue_Act",
             data_url={
@@ -476,11 +431,11 @@ class Silicone(datasets.GeneratorBasedBuilder):
             name="sem",
             description=textwrap.dedent(
                 """\
-            The SEMAINE database comes from the Sustained Emotionally coloured Machine human Interaction using
-            Nonverbal Expression project. This dataset has been annotated on three sentiments labels:
-            positive, negative and neutral. It is built on Multimodal Wizard of Oz experiment where
-            participants held conversations with an operator who adopted various roles designed to
-            evoke emotional reactions. There is no official split on this dataset."""
+            The SEMAINE database comes from the Sustained Emotionally coloured Human-Machine Interaction
+            using Nonverbal Expression project. This dataset has been annotated on three sentiments
+            labels: positive, negative and neutral. It is built on Multimodal Wizard of Oz experiment
+            where participants held conversations with an operator who adopted various roles designed
+            to evoke emotional reactions. There is no official split on this dataset."""
             ),
             text_features={
               "Utterance": "Utterance",
@@ -529,7 +484,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 "Dialogue_ID": "Dialogue_ID",
                 "Conv_ID": "Conv_ID",
             },
-            label_classes=list(SWDA_DA_DESCRIPTION.keys()),
+            label_classes=list(six.iterkeys(SWDA_DA_DESCRIPTION)),
             label_column="Dialogue_Act",
             data_url={
                 "train": os.path.join(_URL, "swda", "train.csv"),
@@ -557,10 +512,8 @@ class Silicone(datasets.GeneratorBasedBuilder):
     def _info(self):
         features = {text_feature: datasets.Value("string") for text_feature in six.iterkeys(self.config.text_features)}
         if self.config.label_classes:
-            features["label"] = datasets.features.ClassLabel(names=self.config.label_classes)
-        else:
-            features["label"] = datasets.Value("float32")
-        features["idx"] = datasets.Value("int32")
+            features["Label"] = datasets.features.ClassLabel(names=self.config.label_classes)
+        features["Idx"] = datasets.Value("int32")
         return datasets.DatasetInfo(
             description=_SILICONE_DESCRIPTION,
             features=datasets.Features(features),
@@ -589,7 +542,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 },
             )
         )
-        if "dev" in self.config.data_url.keys():
+        if "dev" in six.iterkeys(self.config.data_url):
             splits.append(
                 datasets.SplitGenerator(
                     name=datasets.Split.VALIDATION,
@@ -602,39 +555,49 @@ class Silicone(datasets.GeneratorBasedBuilder):
         return splits
 
     def _generate_examples(self, data_file, split):
-        # the files for the MapTask and Bt Oasis corpora do not have header rows
-        no_header = self.config.name in ("maptask", "oasis")
+        if self.config.name not in ("maptask", "iemocap", "oasis", "swda"):
+            df = pd.read_csv(
+                data_file,
+                delimiter=",",
+                header=0,
+                quotechar='"',
+                dtype=str
+            )[six.iterkeys(self.config.text_features)]
 
-        with open(data_file, encoding="utf8") as f:
-            if self.config.name == "swda":
-                reader = csv.DictReader(f, delimiter="\t")
-            if self.config.name not in ("swda", "maptask", "oasis"):
-                reader = csv.DictReader(f, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONE)
-            if no_header:
-                reader = csv.reader(f, delimiter="|")
+        if self.config.name == "iemocap":
+            df = pd.read_csv(
+                data_file,
+                delimiter=",",
+                header=0,
+                quotechar='"',
+                names=["Dialogue_ID", "Utterance_ID", "Utterance", "Emotion", "Valence", "Activation", "Dominance"],
+                dtype=str
+            )[six.iterkeys(self.config.text_features)]
 
-            for n, row in enumerate(reader):
-                if no_header:
-                    row = {
-                        "Speaker": row[0],
-                        "Utterance": row[1],
-                        "Dialogue_Act": row[2],
-                    }
+        if self.config.name in ("maptask", "oasis"):
+            df = pd.read_csv(
+                data_file,
+                delimiter="|",
+                names=["Speaker", "Utterance", "Dialogue_Act"],
+                dtype=str
+            )[six.iterkeys(self.config.text_features)]
 
-                example = {feat: row[col] for feat, col in six.iteritems(self.config.text_features)}
-                example["idx"] = n
+        if self.config.name == "swda":
+            df = pd.read_csv(
+                data_file,
+                delimiter="\t",
+                header=0,
+                dtype=str
+            )[six.iterkeys(self.config.text_features)]
 
-                if self.config.label_column in example:
+        rows = df.to_dict(orient="records")
+
+        for n, row in enumerate(rows):
+            example = row
+            example["Idx"] = n
+
+            if self.config.label_column in example:
                     label = example[self.config.label_column]
-                    example["label"] = label
+                    example["Label"] = label
 
-                # Filter out improperly read rows
-                if example["label"] not in self.config.label_classes:
-                    continue
-
-                # Filter out corrupted rows
-                for value in six.itervalues(example):
-                    if value is None:
-                        break
-                else:
-                    yield example["idx"], example
+            yield example["Idx"], example
