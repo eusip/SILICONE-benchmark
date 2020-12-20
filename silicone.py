@@ -274,9 +274,9 @@ class Silicone(datasets.GeneratorBasedBuilder):
             "query_w", "query_yn", "ready", "reply_n", "reply_w", "reply_y"],
             label_column="Dialogue_Act",
             data_url={
-                "train": os.path.join(_URL, "mt", "train.txt"),
-                "dev": os.path.join(_URL, "mt", "dev.txt"),
-                "test": os.path.join(_URL, "mt", "test.txt"),
+                "train": os.path.join(_URL, "maptask", "train.txt"),
+                "dev": os.path.join(_URL, "maptask", "dev.txt"),
+                "test": os.path.join(_URL, "maptask", "test.txt"),
             },
             citation=textwrap.dedent(
                 """\
