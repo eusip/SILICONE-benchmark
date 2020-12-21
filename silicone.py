@@ -29,11 +29,22 @@ import datasets
 
 
 _SILICONE_CITATION = """\
-@article{chapuis2020hierarchical,
-  title={Hierarchical pre-training for sequence labelling in spoken dialog},
-  author={Chapuis, Emile and Colombo, Pierre and Manica, Matteo and Labeau, Matthieu and Clavel, Chloe},
-  journal={arXiv preprint arXiv:2009.11152},
-  year={2020}
+@inproceedings{chapuis-etal-2020-hierarchical,
+    title = "Hierarchical Pre-training for Sequence Labelling in Spoken Dialog",
+    author = "Chapuis, Emile  and
+      Colombo, Pierre  and
+      Manica, Matteo  and
+      Labeau, Matthieu  and
+      Clavel, Chlo{\'e}",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.239",
+    doi = "10.18653/v1/2020.findings-emnlp.239",
+    pages = "2636--2648",
+    abstract = "Sequence labelling tasks like Dialog Act and Emotion/Sentiment identification are a key component of spoken dialog systems. In this work, we propose a new approach to learn generic representations adapted to spoken dialog, which we evaluate on a new benchmark we call Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE benchmark (SILICONE). SILICONE is model-agnostic and contains 10 different datasets of various sizes. We obtain our representations with a hierarchical encoder based on transformer architectures, for which we extend two well-known pre-training objectives. Pre-training is performed on OpenSubtitles: a large corpus of spoken dialog containing over 2.3 billion of tokens. We demonstrate how hierarchical encoders achieve competitive results with consistently fewer parameters compared to state-of-the-art models and we show their importance for both pre-training and fine-tuning.",
 }
 """
 
