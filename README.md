@@ -9,13 +9,11 @@ YAML tags:
 - [Benchmark Description](#benchmark-description)
   - [Benchmark Summary](#benchmark-summary)
   - [Languages](#languages)
-- [Benchmark Structure](#dataset-structure)
-  - [Dataset Instances](#data-instances)
+- [Benchmark Structure](#benchmark-structure)
+  - [Dataset Instances](#dataset-instances)
   - [Data Splits](#data-splits)
-- [Dataset Creation](#dataset-creation)
-  - [Curation Rationale](#curation-rationale)
 - [Additional Information](#additional-information)
-  - [Dataset Curators](#dataset-curators)
+  - [Benchmark Curators](#benchmark-curators)
   - [Licensing Information](#licensing-information)
   - [Citation Information](#citation-information)
 
@@ -172,13 +170,13 @@ English.
 | sem          | 4749   | ----  | 878   |
 | swda         | 211912 | ----  | 2714  |
 
+<!--
 ## Benchmark Creation
 
 ### Curation Rationale
 
 [More Information Needed]
 
-<!--
 ### Source Data
 
 #### Initial Data Collection and Normalization
@@ -226,7 +224,7 @@ Ebenge Usip, Emile Chapuis, Pierre Colombo.
 
 ### Licensing Information
 
-[More Information Needed]
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ### Citation Information
 
