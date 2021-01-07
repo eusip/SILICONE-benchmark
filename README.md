@@ -27,7 +27,7 @@ YAML tags:
 
 ### Benchmark Summary
 
-The Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE (SILICONE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems specifically designed for spoken language. All datasets are in the English language and covers a variety of domains including daily life, scripted scenarios, joint task completion, phone call conversations, and televsion dialogue. Some datasets additionally include emotion and/or sentimant labels.
+The Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE (SILICONE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems specifically designed for spoken language. All datasets are in the English language and cover a variety of domains including daily life, scripted scenarios, joint task completion, phone call conversations, and televsion dialogue. Some datasets additionally include emotion and/or sentimant labels.
 
 <!--
 -- ### Supported Tasks and Leaderboards
