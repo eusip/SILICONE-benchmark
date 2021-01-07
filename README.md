@@ -1,6 +1,27 @@
 ---
-YAML tags:
-- copy-paste the tags obtained with the tagging app: https://github.com/huggingface/datasets-tagging
+annotations_creators:
+- expert-generated
+language_creators:
+- expert-generated
+languages:
+- en
+licenses:
+- cc-by-sa-4.0
+multilinguality:
+- monolingual
+size_categories:
+- 10K<n<100K
+source_datasets:
+- original
+task_categories:
+- sequence-modeling
+task_ids:
+- dialogue-modeling
+- language-modeling
+- sentiment-classification
+- topic-classification
+- semantic-similarity-scoring
+- sentiment-scoring
 ---
 
 # Dataset Card for SILICONE Benchmark
