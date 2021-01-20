@@ -44,16 +44,27 @@ _SILICONE_CITATION = """\
     url = "https://www.aclweb.org/anthology/2020.findings-emnlp.239",
     doi = "10.18653/v1/2020.findings-emnlp.239",
     pages = "2636--2648",
-    abstract = "Sequence labelling tasks like Dialog Act and Emotion/Sentiment identification are a key component of spoken dialog systems. In this work, we propose a new approach to learn generic representations adapted to spoken dialog, which we evaluate on a new benchmark we call Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE benchmark (SILICONE). SILICONE is model-agnostic and contains 10 different datasets of various sizes. We obtain our representations with a hierarchical encoder based on transformer architectures, for which we extend two well-known pre-training objectives. Pre-training is performed on OpenSubtitles: a large corpus of spoken dialog containing over 2.3 billion of tokens. We demonstrate how hierarchical encoders achieve competitive results with consistently fewer parameters compared to state-of-the-art models and we show their importance for both pre-training and fine-tuning.",
+    abstract = "Sequence labelling tasks like Dialog Act and Emotion/Sentiment identification are a
+        key component of spoken dialog systems. In this work, we propose a new approach to learn
+        generic representations adapted to spoken dialog, which we evaluate on a new benchmark we
+        call Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE benchmark (SILICONE).
+        SILICONE is model-agnostic and contains 10 different datasets of various sizes.
+        We obtain our representations with a hierarchical encoder based on transformer architectures,
+        for which we extend two well-known pre-training objectives. Pre-training is performed on
+        OpenSubtitles: a large corpus of spoken dialog containing over 2.3 billion of tokens. We
+        demonstrate how hierarchical encoders achieve competitive results with consistently fewer
+        parameters compared to state-of-the-art models and we show their importance for both
+        pre-training and fine-tuning.",
 }
 """
 
 _SILICONE_DESCRIPTION = """\
 The Sequence labellIng evaLuatIon benChmark fOr spoken laNguagE (SILICONE) benchmark is a collection
  of resources for training, evaluating, and analyzing natural language understanding systems
- designed for spoken language prepared by Ebenge Usip (https://github.com/eusip/), Research Engineer
- in the Image, Data, Signal department at Télécom Paris. Mappings for the dialogue acts and emotions
- of the SwDA (Dialog Act), MRDA (Dialog Act) and IEMOCAP (Emotion) datasets can be found in the code.
+ specifically designed for spoken language. All datasets are in the English language and cover a
+ variety of domains including daily life, scripted scenarios, joint task completion, phone call
+ conversations, and televsion dialogue. Some datasets additionally include emotion and/or sentimant
+ labels.
 """
 
 _URL = "https://raw.githubusercontent.com/eusip/SILICONE-benchmark/main"
@@ -250,6 +261,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
             label_column="Emotion",
             data_url={
                 "train": os.path.join(_URL, "iemocap", "train.csv"),
+                "dev": os.path.join(_URL, "iemocap", "dev.csv"),
                 "test": os.path.join(_URL, "iemocap", "test.csv"),
             },
             citation=textwrap.dedent(
@@ -272,9 +284,9 @@ class Silicone(datasets.GeneratorBasedBuilder):
             name="maptask",
             description=textwrap.dedent(
                 """\
-            The HCRC MapTask Corpus was constructed through the verbal collaboration of participants in order to
-            construct a map route. This corpus is small (27k utterances). As there is no standard train/dev/test
-            split performance depends on the split."""
+            The HCRC MapTask Corpus was constructed through the verbal collaboration of participants
+             in order to construct a map route. This corpus is small (27k utterances). As there is
+             no standard train/dev/test split performance depends on the split."""
             ),
             text_features={
                 "Speaker": "Speaker",
@@ -384,6 +396,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
             label_column="Dialogue_Act",
             data_url={
                 "train": os.path.join(_URL, "mrda", "train.csv"),
+                "dev": os.path.join(_URL, "mrda", "dev.csv"),
                 "test": os.path.join(_URL, "mrda", "test.csv"),
             },
             citation=textwrap.dedent(
@@ -460,6 +473,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
             label_column="Sentiment",
             data_url={
                 "train": os.path.join(_URL, "sem", "train.csv"),
+                "dev": os.path.join(_URL, "sem", "dev.csv"),
                 "test": os.path.join(_URL, "sem", "test.csv"),
             },
             citation=textwrap.dedent(
@@ -499,6 +513,7 @@ class Silicone(datasets.GeneratorBasedBuilder):
             label_column="Dialogue_Act",
             data_url={
                 "train": os.path.join(_URL, "swda", "train.csv"),
+                "dev": os.path.join(_URL, "swda", "dev.csv"),
                 "test": os.path.join(_URL, "swda", "test.csv"),
             },
             citation=textwrap.dedent(
@@ -546,6 +561,15 @@ class Silicone(datasets.GeneratorBasedBuilder):
         )
         splits.append(
             datasets.SplitGenerator(
+                name=datasets.Split.VALIDATION,
+                gen_kwargs={
+                    "data_file": data_files["dev"],
+                    "split": "dev",
+                },
+            )
+        )
+        splits.append(
+            datasets.SplitGenerator(
                 name=datasets.Split.TEST,
                 gen_kwargs={
                     "data_file": data_files["test"],
@@ -553,20 +577,10 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 },
             )
         )
-        if "dev" in six.iterkeys(self.config.data_url):
-            splits.append(
-                datasets.SplitGenerator(
-                    name=datasets.Split.VALIDATION,
-                    gen_kwargs={
-                        "data_file": data_files["dev"],
-                        "split": "dev",
-                    },
-                )
-            )
         return splits
 
     def _generate_examples(self, data_file, split):
-        if self.config.name not in ("maptask", "iemocap", "oasis", "swda"):
+        if self.config.name not in ("maptask", "iemocap", "oasis"):
             df = pd.read_csv(
                 data_file,
                 delimiter=",",
@@ -590,14 +604,6 @@ class Silicone(datasets.GeneratorBasedBuilder):
                 data_file,
                 delimiter="|",
                 names=["Speaker", "Utterance", "Dialogue_Act"],
-                dtype=str
-            )[six.iterkeys(self.config.text_features)]
-
-        if self.config.name == "swda":
-            df = pd.read_csv(
-                data_file,
-                delimiter="\t",
-                header=0,
                 dtype=str
             )[six.iterkeys(self.config.text_features)]
 
